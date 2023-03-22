@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"es.uxia.bdfx","l":"App"},{"p":"es.uxia.bdfx","l":"Controlador"}]

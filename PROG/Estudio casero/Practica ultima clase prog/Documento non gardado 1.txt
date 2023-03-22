@@ -1,0 +1,1 @@
+Pedir por teclado una letra. Si es una vocal, imprimimos la serie 1 - 5 - 9 - 13 hasta 100, con un máximo de dos dígitos; y si la letra no es una vocal, imprimimos el alfabeto inglés al revés con un máximo de dos dígitos.

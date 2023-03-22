@@ -1,0 +1,4 @@
+José, 5643654365, Rúa do Parque, nº 3
+Alvaro, 564634354, Rúa Pablo Picasso, nº 15
+Enrique, 64863466, Rúa Páez, nº 5
+Luisa, 325434384, Rúa P, nº 34 

@@ -1,0 +1,12 @@
+/* 
+    Created on : 10/05/2021, 09:59:36
+    Author     : uxia
+*/
+
+.button {
+    -fx-base: #b6e7c9;
+}
+
+.button.pressed {
+    -fx-background-color: goldenrod;
+}

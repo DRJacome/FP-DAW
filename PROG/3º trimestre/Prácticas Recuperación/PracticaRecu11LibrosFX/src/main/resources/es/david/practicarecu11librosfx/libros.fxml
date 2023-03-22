@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="698.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.david.practicarecu11librosfx.ControladorLibros">
+   <top>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #41AAC4;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="288.0" layoutY="80.0" text="Catálogo de libros">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #DDDDDD;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="fieldISBN" layoutX="196.0" layoutY="56.0" />
+            <TextField fx:id="fieldTitulo" layoutX="196.0" layoutY="90.0" />
+            <TextField fx:id="fieldAutor" layoutX="196.0" layoutY="125.0" />
+            <TextField fx:id="fieldNumeroPaginas" layoutX="196.0" layoutY="165.0" />
+            <TextField fx:id="fieldAnhoPublicacion" layoutX="196.0" layoutY="207.0" />
+            <TextField fx:id="fieldPrecio" layoutX="196.0" layoutY="245.0" />
+            <Label fx:id="labelISBN" layoutX="46.0" layoutY="60.0" text="ISBN" />
+            <Label fx:id="labelTitulo" layoutX="43.0" layoutY="94.0" text="Título" />
+            <Label fx:id="labelAutor" layoutX="44.0" layoutY="129.0" text="Autor" />
+            <Label fx:id="labelNumeroPaginas" layoutX="44.0" layoutY="169.0" text="Número de páginas" />
+            <Label fx:id="labelAnhoPublicacion" layoutX="44.0" layoutY="211.0" text="Año de publicación" />
+            <Label fx:id="labelPrecio" layoutX="44.0" layoutY="247.0" text="Precio" />
+            <Button fx:id="buttonAnadir" layoutX="697.0" layoutY="80.0" mnemonicParsing="false" onAction="#accionAnadir" prefHeight="29.0" prefWidth="86.0" text="Añadir" />
+            <Button fx:id="buttonLimpiar" layoutX="697.0" layoutY="153.0" mnemonicParsing="false" onAction="#accionLimpiar" prefHeight="33.0" prefWidth="86.0" text="Limpiar" />
+            <Button fx:id="buttonResumen" layoutX="697.0" layoutY="227.0" mnemonicParsing="false" onAction="#accionResumen" prefHeight="28.0" prefWidth="86.0" text="Resumen" />
+         </children></Pane>
+   </center>
+   <bottom>
+      <Pane prefHeight="166.0" prefWidth="885.0" style="-fx-background-color: #80CEB9;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="474.0" layoutY="59.0" text="Número de libros almacenados:">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="labelNumLibros" layoutX="737.0" layoutY="59.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+         </children></Pane>
+   </bottom>
+</BorderPane>

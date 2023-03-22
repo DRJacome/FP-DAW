@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"es.uxia.bdfx","c":"App","l":"App()","url":"%3Cinit%3E()"},{"p":"es.uxia.bdfx","c":"Controlador","l":"Controlador()","url":"%3Cinit%3E()"},{"p":"es.uxia.bdfx","c":"App","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"es.uxia.bdfx","c":"App","l":"start(Stage)","url":"start(javafx.stage.Stage)"}]
