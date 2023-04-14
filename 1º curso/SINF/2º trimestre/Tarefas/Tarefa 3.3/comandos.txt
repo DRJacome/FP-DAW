@@ -1,0 +1,38 @@
+#! /bin/bash
+
+mkdir Practicas
+mkdir Practicas/Directorio1
+mkdir Practicas/Directorio2
+mkdir Practicas/Directorio3
+mkdir Practicas/Directorio1/Sub11
+mkdir Practicas/Directorio1/Sub12
+mkdir Practicas/Directorio2/Sub21
+mkdir Practicas/Directorio2/Sub22
+mkdir Practicas/Directorio3/Sub31
+mkdir Practicas/Directorio3/Sub32
+
+cd Practicas/Directorio1/Sub11/
+echo hola >> arquivo11.txt
+cat arquivo11.txt
+
+cd ../Sub12
+echo adios >> arquivo12.txt
+cat arquivo12.txt
+
+cd ../../Directorio2/Sub21/
+ln -s ~/Practicas/Directorio1/Sub11/arquivo11.txt enlaceArquivo11
+cd ../Sub22
+ln -s ~/Practicas/Directorio1/Sub12/arquivo12.txt enlaceArquivo12
+
+cd ../../Directorio3/Sub31
+ln ../../Directorio1/Sub11/arquivo11.txt enlaceArquivo31
+
+cd../Sub32
+ln ../../Directorio1/Sub11/arquivo11.txt enlaceArquivo32
+
+cd ../../
+ls -li Directorio1/Sub11
+ls -li Directorio2/Sub21
+ls -li Directorio3/Sub31
+
+
