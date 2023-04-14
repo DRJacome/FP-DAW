@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Hardware SYSTEM "hardware.dtd">
+
+<Hardware>
+  <Maquina Nome="OrdenadorLG" Fabricante="LG36" Espazo="S25">
+    <Info>
+      <Espazo idEspazo="S25">
+        <nome>Informática</nome>
+        <tipo>
+          <aula>25</aula>
+          <sala>Esquerda</sala>
+          <departamento>Informática</departamento>
+        </tipo>
+        <ubicación>Universidade ala esquerda</ubicación>
+      </Espazo>
+      <Tipo>Ordenador</Tipo>
+      <Fabricante idFabricante="LG36">
+        <nomeF>LG</nomeF>
+        <Web>www.lg.com</Web>
+        <correo>empresalg@gmail.com</correo>
+      </Fabricante>
+      <Procesador Marca="Intel">i5</Procesador>
+      <Memoria Tecnoloxía="DDR2">16</Memoria>
+      <Disco Tecnoloxía="SSD" Capacidade="240"/>
+    </Info>
+    <Config>
+      <OS>Windows</OS>
+    </Config>
+  </Maquina>
+</Hardware>

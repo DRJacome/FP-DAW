@@ -1,0 +1,25 @@
+﻿<!-- //máquina/hardware/tipo[text()="Semitorre"]/../../config/OS[text()="Windows XP"]/../.. -->
+
+<máquina nome="PC053">
+  <hardware>
+    <tipo>Semitorre</tipo>
+    <memoria>0.5</memoria>
+    <disco capacidade="40"/>
+    <lectora tipo="CD"/>
+  </hardware>
+  <config>
+    <OS>Windows XP</OS>
+  </config>
+</máquina>
+<máquina nome="PC007">
+  <hardware>
+    <tipo>Semitorre</tipo>
+    <memoria tecnoloxía="DDR">0.5</memoria>
+    <disco capacidade="40"/>
+    <lectora tipo="CD"/>
+  </hardware>
+  <config>
+    <OS>Windows XP</OS>
+  </config>
+  <notas>Sin tarxeta de rede</notas>
+</máquina>

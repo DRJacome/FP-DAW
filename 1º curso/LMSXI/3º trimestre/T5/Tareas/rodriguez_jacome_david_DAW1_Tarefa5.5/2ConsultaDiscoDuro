@@ -1,0 +1,6 @@
+﻿<!-- //hardware[count(disco)>1]/ancestor::máquina/@nome -->
+
+ nome="COPERNICO"
+ nome="GALILEO"
+ nome="KEPLER"
+ nome="NEWTON"

@@ -1,0 +1,18 @@
+/*
+CSS Footer Index.
+*/
+
+.rrss {
+    grid-row: 19/ 20;
+    grid-column: 2/3;
+}
+
+.contacto {
+    grid-row: 19/ 20;
+    grid-column: 7/8;
+}
+
+.patrocinador {
+    grid-row: 19/ 20;
+    grid-column: 10/11;
+}

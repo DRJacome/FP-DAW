@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE musica SYSTEM "musica.dtd">
+
+<musica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquemaMusica.xsd">
+  <cd titulo="Bohemian Rhapsody" ano="1975" interprete="QE1975"/>
+  <cd titulo="Solamente tú" ano="2011" interprete="PA2000"/>
+  <cd titulo="Ni una sola palabra" ano="2006" interprete="PRA206"/>
+  <musico codigo="QE1975">
+    <nomeArtistico>Queen</nomeArtistico>
+    <tipo>banda</tipo>
+    <instrumento>bajo</instrumento>
+    <instrumento>guitarra</instrumento>
+    <instrumento>batería</instrumento>
+  </musico>
+  <musico codigo="PA2000">
+    <nomeArtistico>Pablo Alborán</nomeArtistico>
+    <tipo>cantautor</tipo>
+  </musico>
+  <musico codigo="PRA206">
+    <nomeArtistico>Paulina Rubio</nomeArtistico>
+    <instrumento>guitarra</instrumento>
+  </musico>
+  <musico codigo="CN505">
+    <nomeArtistico>Carlos Nuñez</nomeArtistico>
+    <instrumento>flauta de pico</instrumento>
+    <instrumento>gaita</instrumento>
+    <instrumento>ocarina</instrumento>
+  </musico>
+  <cd titulo="A irmandade das estrelas" interprete="CN505"/>
+</musica>

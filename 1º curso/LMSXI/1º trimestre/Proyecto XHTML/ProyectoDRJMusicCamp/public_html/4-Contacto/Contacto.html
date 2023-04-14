@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+HTML Contacto.
+-->
+<html> 
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilosContacto.css"/>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="mobile-container">
+                    <div class="topnav">
+                        <a href="../index.html" class="active">Home</a>
+                            <div id="myLinks">
+                                <a href="../1-Bandas/Bandas.html">Bandas</a>
+                                <a href="../2-Galeria/Galeria.html">Galería</a>
+                                <a href="../3-Podcast/Podcast.html">Podcast</a>
+                                <a href="Contacto.html">Contacto</a>
+                              </div>
+                                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i>
+                                  </a>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <form>
+                    <p>Para enviar cualquier información al blog, crea un usuario con contraseña y rellena este formulario 
+                        para enviar sugerencias o cualquier otro asunto.</p><br/>
+                    <h2>Formulario</h2>
+                    Nombre:<br/>
+                    <input type="text" name="nome" value=""/> <br/><br/>
+                    Apellidos:<br/>
+                    <input type="text" name="Apelidos" value=""/> <br/><br/>
+                    Nombre de usuario:<br/>
+                    <input type="text" name="Nome de usuario" value=""/> <br/><br/>
+                    Contraseña:<br/>
+                    <input type="password" name="Contrasinal" value=""/> <br/><br/>
+                    Repetir Contraseña:<br/>
+                    <input type="password" name="Repite contrasinal" value=""/> <br/><br/>
+                                
+                    Asunto:<br/>
+                        <select id="Provincia" name="Provincia">
+                            <option value="" selected="selected">- selecciona -</option>
+                            <option value="Sugerencia">Sugerencia</option>
+                            <option value="Duda">Duda</option>
+                            <option value="Queja">Queja</option>
+                            <option value="Consulta_de_otro_tipo">Consulta de otro tipo</option>
+                        </select><br/><br/>
+
+                    Detalla el asunto de quieras exponer en el siguiente cuadro:<br/>
+                        <textarea id="Presentacion" name="Presentación" cols="50" rows="5"></textarea><br/><br/>
+			
+                    Si quieres adjuntar información gráfica complementaria, insértala aquí:<br/>
+                        <input type="file" name="adxunto"/><br/><br/>
+                	<input type="reset" name="limpar" value="Borrar datos do formulario"/><br/><br/> 
+                        <input type="button" name="guardar" value="Crear cuenta"/></br>
+                </form>
+            </section></br></br></br>
+        </main>
+        <script src="../1-Bandas/MenuHam.js"></script>
+    </body>
+</html>

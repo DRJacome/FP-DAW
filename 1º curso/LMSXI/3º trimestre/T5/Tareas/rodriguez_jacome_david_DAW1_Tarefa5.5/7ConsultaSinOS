@@ -1,0 +1,17 @@
+﻿<!-- //config[not(OS)]/.. -->
+
+<máquina nome="PR003">
+  <hardware>
+    <tipo>Impresora Inyección</tipo>
+    <fabricante>Lexmark</fabricante>
+  </hardware>
+  <config/>
+</máquina>
+<máquina nome="PR007">
+  <hardware>
+    <tipo>Impresora Láser</tipo>
+    <fabricante>OKI</fabricante>
+  </hardware>
+  <config/>
+  <notas>Monocromo, dúplex, red</notas>
+</máquina>

@@ -1,0 +1,22 @@
+<!ELEMENT reservas (reserva*, cliente*)>
+    <!ELEMENT reserva (data_inicio, data_fin, observacións?)>
+      <!ATTLIST reserva
+        cliente IDREF #REQUIRED
+        tipo (SA|AD|MP|PC) #REQUIRED
+        habitacion (individual|dobre) #REQUIRED>
+    <!ENTITY % data
+      "ano CDATA #REQUIRED
+      mes (enero|febreiro|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre) #REQUIRED
+      día CDATA #REQUIRED">
+    <!ELEMENT data_inicio EMPTY>
+      <!ATTLIST data_inicio %data;>
+    <!ELEMENT data_fin EMPTY>
+      <!ATTLIST data_fin %data;>
+    <!ELEMENT observacións (#PCDATA)>
+    <!ELEMENT cliente (nome, apelidos, mobil+, correo?)>
+      <!ATTLIST cliente
+        id ID #REQUIRED>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT apelidos (#PCDATA)>
+    <!ELEMENT mobil (#PCDATA)>
+    <!ELEMENT correo (#PCDATA)>

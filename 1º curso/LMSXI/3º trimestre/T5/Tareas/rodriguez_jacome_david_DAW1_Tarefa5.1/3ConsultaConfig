@@ -1,0 +1,11 @@
+﻿<config>
+  <OS>Windows 7</OS>
+  <IP>192.168.20.105</IP>
+  <gateway>192.168.20.1</gateway>
+</config>
+<config>
+  <role>Servidor de dominio</role>
+  <OS>Windows 2008 Server R2</OS>
+  <IP>192.168.20.10</IP>
+  <gateway>192.168.20.1</gateway>
+</config>

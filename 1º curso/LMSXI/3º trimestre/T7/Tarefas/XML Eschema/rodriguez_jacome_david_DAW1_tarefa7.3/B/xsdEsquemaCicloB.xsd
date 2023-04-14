@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="modulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="duracion" type="tipoDuracion"/>
+        <xs:element name="nome" type="tipoNomeLongo"/>
+        <xs:element ref="ciclo" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="contidos" type="tipoContidos"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="tipoModuloCodigo" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="tipoDuracion">
+    <xs:attribute name="horas" type="xs:unsignedByte" use="required"/>
+    <xs:attribute name="sesions" type="xs:unsignedByte" use="required"/>
+    <xs:attribute name="sesionsSemanais" type="tipoNumSemanais" use="optional"/>
+</xs:complexType>
+<xs:element name="ciclo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="tipoNomeLongo">
+          <xs:attribute name="codigo" type="tipoCodigoCiclo" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+<xs:complexType name="tipoContidos">
+    <xs:sequence>
+      <xs:element name="UD" type="tipoUD" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+<xs:complexType name="tipoUD">
+    <xs:sequence>
+      <xs:element name="titulo" type="tipoNomeLongo"/>
+      <xs:element name="descrición" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="num" type="tipoNumSemanais" use="required"/>
+    <xs:attribute name="sesións" type="xs:unsignedByte" use="required"/>
+</xs:complexType>
+<xs:simpleType name="tipoModuloCodigo">
+   <xs:restriction base="xs:string">
+     <xs:pattern value="MP\d{4}"/>
+   </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="tipoNumSemanais">
+    <xs:restriction base="xs:unsignedByte">
+      <xs:maxInclusive value="21"/>
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="tipoNomeLongo">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="150"/>
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="tipoCodigoCiclo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="C[SM][A-Z]{3}\d{2}"/>
+    </xs:restriction>
+</xs:simpleType>
+</xs:schema>
+
+
+
+

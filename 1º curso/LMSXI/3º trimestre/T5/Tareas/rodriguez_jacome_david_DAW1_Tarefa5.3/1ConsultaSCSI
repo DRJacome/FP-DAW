@@ -1,0 +1,7 @@
+﻿<!-- //hardware/disco[@tecnoloxía="SCSI"] -->
+
+<disco tecnoloxía="SCSI" capacidade="500"/>
+<disco tecnoloxía="SCSI" capacidade="500"/>
+<disco tecnoloxía="SCSI" capacidade="200"/>
+<disco tecnoloxía="SCSI" capacidade="200"/>
+<disco tecnoloxía="SCSI" capacidade="200"/>

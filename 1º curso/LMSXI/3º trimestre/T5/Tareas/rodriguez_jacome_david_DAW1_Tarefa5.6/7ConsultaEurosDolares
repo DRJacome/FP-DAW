@@ -1,0 +1,3 @@
+﻿<!-- sum(//importe[@moneda="euro"]) + ((sum(//importe[@moneda="dólar"])) div 1.4) -->
+
+40.0943

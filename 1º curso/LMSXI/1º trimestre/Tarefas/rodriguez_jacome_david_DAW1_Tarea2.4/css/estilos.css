@@ -1,0 +1,19 @@
+/* oculte a imaxe da Ribeira Sacra pero se manteña libre o espazo que ocupab/*
+/*ibeira_sacra {visibility: hidden; }*/
+
+/* Desapareza completamente a imaxe da Ribeira Sacra */
+/*#ribeira_sacra {display: none; }*/
+
+/* As imaxes da Ribeira Sacra e da Praia das Catedrais aparezan desprazadas 100px cara abaixo (posicionamento relativo). Non fai falta ter en conta posibles solapamentos */
+/*#ribeira_sacra {position: relative; top: 100px; } #catedrais {position: relative; top: 100px; }*/
+
+/* A imaxe das Illas Cíes é inamovible dentro da pantalla, manténdose sempre na esquina inferior dereita da pantalla */
+/*#cies {position: fixed; bottom: 0; right: 0; }*/
+
+/*As imaxes se sitúan á esquerda e o texto á dereita
+	img {float: left; }
+	p {float: left; width: 200px; clear: left;*/ 
+
+/* A imaxe da Ribeira Sacra se sitúa á esquera e as outras imaxes á dereita*/
+/*#ribeira_sacra {float: left; }
+	img {float: right; } */

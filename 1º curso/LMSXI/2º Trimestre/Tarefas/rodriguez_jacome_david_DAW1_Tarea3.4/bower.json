@@ -1,0 +1,13 @@
+{
+    "name": "rodriguez_jacome_david_DAW1_Tarea3.4",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}

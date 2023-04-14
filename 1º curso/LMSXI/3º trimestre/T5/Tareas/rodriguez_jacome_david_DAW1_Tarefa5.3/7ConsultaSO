@@ -1,0 +1,7 @@
+﻿<!-- //hardware/procesador[@num_nucleos]/ancestor::máquina/config/OS -->
+
+<OS>Windows 7</OS>
+<OS>Windows 2003 Server R2</OS>
+<OS>Windows 2008 Server R2</OS>
+<OS>Ubuntu 8.04 Server</OS>
+<OS>Ubuntu 8.04 Server</OS>

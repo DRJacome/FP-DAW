@@ -1,0 +1,23 @@
+body {color: blue; font-size: 12pt; font-family: arial; line-height: 2em; background-image: url(fondo1.jpeg); background-repeat: no-repeat;}
+
+p {width: 400px; text-align: justify; letter-spacing: 4px; text-indent: 20px; margin-left: 10px}
+
+h1 {color: red; font-size: 1.5em; font-family: verdana;  font-weight:800; font-weight:800; background-image: url(fondo2.jpeg); background-repeat: repeat-x; border-color: white; border-style: dotted; border-width: 2px;}
+
+h2 {color: green; font-size: 1.25em; font-family: garamond; font-style: italic; background-color: white;}
+
+strong {font-weight: normal; text-transform: uppercase;}
+
+em {font-style: normal; text-decoration: underline;}
+
+a:link {color: maroon;}
+
+a:visited {color: fuchsia;}
+
+a:hover {color: lime;}
+
+a:active {color: yellow;}
+
+.eliminado {text-decoration: line-through; color: purple;}
+
+.importante {border-style: solid; border-color: gray;}

@@ -1,0 +1,36 @@
+﻿<!-- //gateway/.. -->
+
+<config>
+  <OS>Windows 7</OS>
+  <IP>192.168.20.105</IP>
+  <gateway>192.168.20.1</gateway>
+</config>
+<config>
+  <OS>Mandriva 2007</OS>
+  <IP>192.168.10.45</IP>
+  <gateway>192.168.10.1</gateway>
+</config>
+<config>
+  <role>Servidor de dominio</role>
+  <OS>Windows 2003 Server R2</OS>
+  <IP>192.168.20.11</IP>
+  <gateway>192.168.20.1</gateway>
+</config>
+<config>
+  <role>Servidor de dominio</role>
+  <OS>Windows 2008 Server R2</OS>
+  <IP>192.168.20.10</IP>
+  <gateway>192.168.20.1</gateway>
+</config>
+<config>
+  <role>Servidor de arquivos</role>
+  <OS>Ubuntu 8.04 Server</OS>
+  <IP>192.168.10.10</IP>
+  <gateway>192.168.10.1</gateway>
+</config>
+<config>
+  <role>Servidor web</role>
+  <OS>Ubuntu 8.04 Server</OS>
+  <IP>192.168.10.11</IP>
+  <gateway>192.168.10.1</gateway>
+</config>

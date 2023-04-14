@@ -1,0 +1,90 @@
+#general {
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	margin: 0px auto;
+}
+
+header {
+	background-color: #af41ee;
+	color: white;
+	height: 200px;
+}
+
+nav {
+	background-color: #2cc8ea;
+	color: white;
+	height: 70px;
+}
+
+section {
+	background-color: #791aba;
+	color: white;
+	height: 400px;
+}
+
+aside {
+	background-color: #92128d;
+	color: white;
+	height: 70px;
+}
+
+footer {
+	background-color: #e11de3;
+	color: white;
+	height: 200px;
+}
+
+/* visual tableta 500-1000px */
+@media (min-width: 500px) and (max-width: 1000px) {
+#doble {
+	display: flex;
+	flex-direction: row;
+}
+	aside {
+		order: 1;
+		flex-grow: 0.5;
+		height: 300px;
+}
+	section {
+		order: 2;
+		flex-grow: 3;
+		height: 300px;
+}
+}
+
+/* visual pc escritorio <1000px */
+@media (min-width: 1000px) {
+#triple {
+	display: flex;
+	flex-direction: row;
+}
+#doble {
+	display: flex;
+	flex-direction: row;
+	order: 2;
+	flex-grow: 10;
+}
+	nav {
+		order: 1;
+		flex-grow: 0.4;
+		height: 500px;		
+}
+
+	aside {
+		order: 2;
+		flex-grow: 1;
+		height: 500px;		
+}
+
+	section {
+		order: 3;
+		flex-grow: 5;
+		height: 500px;		
+}
+}
+
+
+

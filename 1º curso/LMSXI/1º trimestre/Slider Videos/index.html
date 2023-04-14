@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Video Slider usando CSS, HTML5 y JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section >
+		<video id="slider" autoplay muted loop>
+			<source src="video1.mp4" type="video/mp4">		
+
+		</video>
+	
+	<ul class="navegacion">
+		<li onclick="cargarVideo('video1.mp4');">
+			<img src="1.jpg">
+		</li>
+		<li onclick="cargarVideo('video2.mp4');">
+			<img src="2.jpg">
+		</li>
+		<li onclick="cargarVideo('video3.mp4');">
+			<img src="3.jpg">
+		</li>
+	</ul>
+
+	</section>
+</body>
+<script type="text/javascript">
+	function cargarVideo(url){
+		document.getElementById('slider').src=url;
+	}	
+</script>
+</html>

@@ -1,0 +1,88 @@
+/*
+CSS Podcast.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+      background-image: url(fondo.jpg);
+}
+main {
+    color: black;
+    max-width: 1000vw;
+    display: grid;
+    grid-gap: 0.1rem;
+    grid-template-columns: repeat (5, 5vw);	
+    grid-template-rows: repeat (10, 5vh);
+    margin: 10px;
+}
+
+header {
+    grid-column:1/6;
+    grid-row: 1/2;
+    grid-template-rows: repeat (2,5vh);
+}
+/*********************Menú hamburguesa*********/
+.mobile-container {
+  margin: auto;
+  grid-column: 1/6;
+  grid-row: 1/2;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: lightseagreen;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/**********************************************/
+table {
+    background-color: whitesmoke;
+}
+
+.canciones {
+    grid-colum: 1/6;
+    grid-row: 3/4;
+}
+/*.canciones .primeraTabla {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.canciones .primera {
+    grid-column: 5/6;
+}*/
+/*.media {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}*/

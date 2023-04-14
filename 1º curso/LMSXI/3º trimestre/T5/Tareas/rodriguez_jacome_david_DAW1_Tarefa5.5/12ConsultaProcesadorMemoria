@@ -1,0 +1,5 @@
+﻿<!-- //procesador[@num_nucleos][following::memoria/text()<=2]/ancestor::máquina/@nome -->
+
+ nome="PC017"
+ nome="COPERNICO"
+ nome="GALILEO"

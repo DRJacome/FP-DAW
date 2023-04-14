@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE edificio SYSTEM "DTD6_5_a.dtd">
+<edificio alquiler="verdadeiro">
+    <enderezo>
+      <rua></rua>
+      <numero></numero>
+      <poboacion></poboacion>
+      <provincia></provincia>
+      <codigoPostal></codigoPostal>
+    </enderezo>
+    <dataConstrucion mes="Febreiro" ano="1989"/>
+    <material>Formigon</material>
+</edificio>

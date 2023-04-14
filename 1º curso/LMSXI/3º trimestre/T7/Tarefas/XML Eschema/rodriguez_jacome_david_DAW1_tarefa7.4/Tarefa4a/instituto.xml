@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE instituto SYSTEM "instituto.dtd">
+<instituto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquemaInstituto.xsd">
+  <alumno numExpedente="123" nome="Uxía" apelido1="Blanco" apelido2="Iglesias"/>
+  <alumno numExpedente="200" nome="José" apelido1="Iglesias"/>
+  <profesor NRP="1234A590" nome="Carme" apelido1="Fernández"/>
+  <profesor NRP="3214D590" nome="Luz" apelido1="Casal" apelido2="Dominguez"/>
+  <alumno numExpedente="2020" nome="Ana Belén" apelido1="Iglesias" apelido2="Mejuto"/>
+</instituto>

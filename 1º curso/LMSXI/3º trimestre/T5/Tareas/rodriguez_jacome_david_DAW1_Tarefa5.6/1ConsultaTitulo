@@ -1,0 +1,15 @@
+﻿<!-- //película[título=títuloorixinal] -->
+
+<película id="3">
+  <importe moneda="euro">22.18</importe>
+  <título>Leaving Las Vegas</título>
+  <títuloorixinal>Leaving Las Vegas</títuloorixinal>
+  <ano>1995</ano>
+  <director>Mike Figgis</director>
+  <xénero>Drama</xénero>
+  <duración>107</duración>
+  <!-- Nicolas Cage -->
+  <actúa id="187"/>
+  <!-- Elisabeth Shue -->
+  <actúa id="51"/>
+</película>

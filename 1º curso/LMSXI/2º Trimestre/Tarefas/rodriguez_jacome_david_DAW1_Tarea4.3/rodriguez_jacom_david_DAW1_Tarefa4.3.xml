@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro titulo="The Pillars of the Earth" anoPublicacion="1989" ISBN="1447265440">
+      <autor>Ken Follet</autor>
+      <editorial >Penguin Books</editorial>
+      <descripcion xml:lang="en">
+        Everything readers expect from Follett is here: intrigue, fast-paced action, and passionate romance. 
+        But what makes The Pillars of the Earth extraordinary is the time the twelfth century; the place feudal England; 
+        and the subject the building of a glorious cathedral. Follett has re-created the crude, flamboyant England of the Middle Ages in every detail.
+         The vast forests, the walled towns, the castles, and the monasteries become a familiar landscape.
+      </descripcion>
+    </libro>
+    <libro titulo="La catedral del mar" anoPublicacion="2006" ISBN="9788499088044">
+      <autor>Ildefonso Falcones</autor>
+      <editorial >DEBOLSILLO</editorial>
+      <descripcion xml:lang="es">
+        Una catedral construida por el pueblo y para el pueblo en la Barcelona medieval es el escenario de una apasionante historia de intriga, violencia y pasión.
+        Siglo XIV. La ciudad de Barcelona se encuentra en su momento de mayor prosperidad; ha crecido hacia la Ribera, el humilde barrio de los pescadores, 
+        cuyos habitantes deciden construir, con el dinero de unos y el esfuerzo de otros, el mayor templo mariano jamás conocido: Santa María de la Mar.
+        Una construcción que es paralela a la azarosa historia de Arnau, un siervo de la tierra que huye de los abusos de su señor feudal y se refugia en Barcelona, 
+        donde se convierte en ciudadano y, con ello, en hombre libre. El joven Arnau trabaja como palafrenero, estibador, soldado y cambista. 
+        Una vida extenuante, siempre al amparo de la catedral de la mar, que le iba a llevar de la miseria del fugitivo a la nobleza y la riqueza. 
+        Pero con esta posición privilegiada también le llega la envidia de sus pares, que urden una sórdida conjura que pone su vida en manos de la Inquisición...
+      </descripcion>
+    </libro>
+</biblioteca>

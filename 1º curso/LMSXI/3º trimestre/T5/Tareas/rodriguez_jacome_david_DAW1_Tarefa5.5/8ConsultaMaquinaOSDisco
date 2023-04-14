@@ -1,0 +1,10 @@
+﻿<!-- //hardware[count(disco) >1]/../@nome | //hardware[count(disco) >1]/../config/OS -->
+
+ nome="COPERNICO"
+<OS>Windows 2003 Server R2</OS>
+ nome="GALILEO"
+<OS>Windows 2008 Server R2</OS>
+ nome="KEPLER"
+<OS>Ubuntu 8.04 Server</OS>
+ nome="NEWTON"
+<OS>Ubuntu 8.04 Server</OS>

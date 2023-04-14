@@ -1,0 +1,55 @@
+#general {
+	background-color: #7E7B7B;
+	width: 1020px;
+	
+}
+
+#cabecera {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #B1ABA9;
+	background-color: black;
+	color: white;
+	width: 1000px;
+	margin: 10px;
+	padding:10px;
+}
+
+#principal {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #B1ABA9;
+	border-color: gray;
+	background-color: #CDC9C8;
+	float: left;
+	width: 380px;
+	padding: 10px;
+}
+
+#contenido {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #B1ABA9;
+	background-color: #CDC9C8;
+	float: right;
+	width: 570px;
+	margin-left: 10px;
+}
+
+#paginas {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #B1ABA9;
+	background-color: #CDC9C8;
+	float: left;
+	
+}
+
+#web {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #B1ABA9;
+	background-color: black;
+	color: white;
+	float: left;
+}

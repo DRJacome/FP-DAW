@@ -1,0 +1,31 @@
+﻿<?xml version="1.1" encoding="UTF-8"?>
+
+<centro xmlns="http://www.iescentro.com"
+                  xmlns:a="http://www.iescentro.com/alumnos">
+  <ciclo id="ASIR" grao="CS">
+    <modulo id="MP0370">
+     <nome>Planificación e administración de redes</nome>
+     <horas>213</horas>
+    </modulo>
+    <modulo id="MP0371">
+      <nome>Fundamentos Hardware</nome>
+      <horas>107</horas>
+    </modulo>
+    <a:alumno>
+      <a:nome>Xoan</a:nome>
+      <a:apelidos>Cancedo da Foz</a:apelidos>
+      <a:datanacemento>06/11/1991</a:datanacemento>
+      <a:nota>Xa fixo otro ciclo</a:nota>
+      <a:modulo id="MP0370" nota="8"/>
+      <a:modulo id="MP0371" nota="6"/>
+    </a:alumno>
+    <a:alumno>
+      <a:nome>Ana</a:nome>
+      <a:apelidos>Beiras Fiz</a:apelidos>
+      <a:datanacemento>06/06/1986</a:datanacemento>
+      <a:nota>Cursa primerio ciclo</a:nota>
+      <a:modulo id="MP0370" nota="7"/>
+      <a:modulo id="MP0371" nota="4'5"/>
+    </a:alumno>
+  </ciclo>
+</centro>

@@ -1,0 +1,6 @@
+﻿<!-- //config[IP/text()][not(gateway)] -->
+
+<config>
+  <OS>Windows 2000 SP4</OS>
+  <IP>192.168.10.221</IP>
+</config>
