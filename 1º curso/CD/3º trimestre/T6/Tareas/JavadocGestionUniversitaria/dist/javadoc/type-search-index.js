@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"gestionuniversitaria","l":"Estudiante"},{"p":"gestionuniversitaria","l":"Facultad"},{"p":"gestionuniversitaria","l":"GestionUniversitaria"},{"p":"gestionuniversitaria","l":"Grado"},{"p":"gestionuniversitaria","l":"Profesor"},{"p":"gestionuniversitaria","l":"Universidad"}];updateSearchResults();

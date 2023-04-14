@@ -1,0 +1,6 @@
+.text
+.globl main
+main:
+la $a0, variable
+li $v0, 4
+syscall
