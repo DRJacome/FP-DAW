@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+    <script src="contrasena.js" type="text/javascript"></script>
+    <title>Index T7.3.3</title>
+</head>
+
+<body>
+    <form action="index_t7_3_3.html" method="post">
+        <fieldset class="form">
+            <p>Los campos en rojo son obligatorios</p>
+            <legend>Formulario</legend>
+            <fieldset id="campo1">
+                <legend>¿Prefieres carne o pescado?</legend>
+                <ul>
+                    <li>
+                        <input type="radio" required name="carne" id="carne" value="yes">
+                        <label for="carne">Carne</label>
+                    </li>
+                    <li><input type="radio" required name="pescado" id="pescado" value="no">
+                        <label for="pescado">Pescado</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset id="campo2">
+                <legend>Introduce tu nombre</legend>
+                <p><label for="nombre"></label>Nombre:
+                    <input type="text" id="nombre" placeholder="Tu nombre" name="nombre" size="10" required />
+                </p>
+            </fieldset>
+            <fieldset id="campo3">
+                <legend>Introduce una contraseña</legend>
+                <p>La contraseña debe tener entre 5 y 10 caracteres e incluír L y 3:</p>
+                <p><label for="contrasena"></label>Contraseña:
+                    <input type="password" id="contrasena" placeholder=" Tu contraseña" name="contrasena" 
+                    minlength="5" maxlength="10" required />
+                </p>
+            </fieldset>
+        </fieldset>
+        <button type="button" onclick="comprobarContrasena(contrasena.value)">Enviar</button>
+    </form>
+</body>
+
+</html>
