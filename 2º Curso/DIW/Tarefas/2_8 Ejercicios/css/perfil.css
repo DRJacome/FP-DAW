@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.caja {
+    margin: auto;
+    margin-top: 3%;
+    background-color: #4C4C4C;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px black;
+    width: 1300px;
+    height: 650px;
+}
+
+img {
+    width: 100px;
+    height: 65px;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+
+h1 {
+    padding: 2%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+fieldset {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.datosPersonales {
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+.temas {
+    margin-right: 1%;
+}
+
+p {
+    padding: 5px;
+}
+
+.boton input{
+    margin-top: 1%;
+    margin-left: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #A6B363;
+    color: whitesmoke;
+    font-weight: bold;
+}

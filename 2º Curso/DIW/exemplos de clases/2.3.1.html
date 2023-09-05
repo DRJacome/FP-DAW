@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cabecera{
+        background: #CCC;
+        border: 1px solid #093;
+        margin:10px 12px 20px 15px;
+        height: 150px;
+        width: 60%;
+        margin: 0px auto; }
+        
+        #contenido{
+            background-color: chocolate;
+            border: 5px solid blueviolet;
+            margin: 0px auto;
+            width: 80%;
+            height: 1000px;
+        }
+        #piepagina{
+            /*position: fixed;*/
+            bottom: 0px;
+            background-color: black;
+            color: wheat;
+            width: 100%;
+            height: 100px;
+        }
+        #cabecera, #contenido { 
+            font-family: 'Courier New', Courier, monospace;}
+    </style>
+</head>
+<body>
+
+    <div id="cabecera">cabecera
+        <a href="#piepagina"> Ir al pie de pagina </a>
+    </div>
+
+
+    <div id="contenido">contenido</div>
+    
+    <div id="piepagina">
+        <p>pie pagina</p>
+        <a href="#cabecera"> Ir a la cabecera </a>
+        <a href="#contenido"> Ir al contenido </a>
+
+    </div>
+
+    
+</body>
+</html>

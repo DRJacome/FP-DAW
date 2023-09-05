@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_11Flexbox</title>
+    <style>
+        #contenedor {
+            background: #CCC;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item1 {
+            background: #777;
+            display: flex;
+            width: 200px;
+            flex-wrap: wrap;
+        }
+
+        #contenedor2 {
+            background: #CCC;
+            display: flex;
+            width: 200px;
+            flex-wrap: wrap;
+        }
+
+        .item2 {
+            background: #777;
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<div id="contenedor">
+        <div class="item item-1">1</div>
+        <div class="item item-1">2</div>
+        <div class="item item-1">3</div>
+    </div>-->
+    <div id="contenedor2">
+        <div class="item2 item-2">1</div>
+        <div class="item2 item-2">2</div>
+        <div class="item2 item-2">3</div>
+        <div class="item2 item-2">4</div>
+        <div class="item2 item-2">5</div>
+        <div class="item2 item-2">6</div>
+    </div>
+</body>
+
+</html>

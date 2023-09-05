@@ -1,0 +1,48 @@
+body {
+    background-color: lightgreen;
+}
+
+img {
+    margin: 5vw;
+}
+
+h1 {
+    color: navy;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.transiciones div {
+    display: flex;
+    float: left;
+    padding: 2vw;
+}
+
+#color:hover {
+    background-color: red;
+    color: white;
+    transition: background-color 3s linear;
+}
+
+#fuente:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5em;
+    padding-top: 10vh;
+    transition: font-size 1s ease, padding-top 1s ease-out;
+}
+
+#borde:hover {
+    border: 10px solid rgb(0, 217, 255);
+    border-radius: 50px;
+    background-color: white;
+    transition: border 1s ease, background-color 1s ease-in, border-radius 1s ease-in-out 1s;
+}

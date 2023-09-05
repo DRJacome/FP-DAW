@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!--ERROR: añadir título a la página-->
+  <title>Mis libros</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css" media="all" />
+
+  <script type="text/javascript">
+    function showhide(control, elem) {
+      var opcion = control.selectedIndex;
+      if (opcion == 0) {
+        elem.style.position = 'relative';
+        elem.style.left = '0px';
+        elem.style.width = '100%';
+        elem.style.height = '100%';
+        elem.style.overflow = 'visible';
+      } else {
+        elem.style.position = 'absolute';
+        elem.style.left = '-9000px';
+        elem.style.width = '1px';
+        elem.style.height = '1px';
+        elem.style.overflow = 'hidden';
+      }
+    }
+  </script>
+</head>
+
+<body onload="showhide(document.getElementById('info_promociones'), document.getElementById('lista_promociones'))">
+
+  <div id="contenido">
+    <!--
+      ************************************************
+      *                  CABECERA                    *
+      ************************************************
+      -->
+    <header>
+      <div id="logo">
+        <span id="mis">mis</span><span id="libros">Libros</span>
+      </div>
+
+      <p class="t1">Formulario de compra</p>
+      <!--9. ERROR: añadir etiqueta nav para menú de navegación-->
+      <nav>
+        <div id="pasos">
+          <strong>Paso:</strong><img src="img/1.png" alt="" /><img src="img/2on.png" alt="" width="63"
+            height="42" /><img src="img/3.png" alt="" width="85" height="42" />
+        </div>
+      </nav>
+      <div id="imprimir">
+        <a href="javascript:print()"><img src="img/iconPrint.gif" width="20" alt="Imprimir página" /></a>
+        <a href="javascript:print()">Imprimir</a>
+      </div>
+
+      <div id="ayuda">
+        <img src="img/help.gif" alt="Ayuda" onclick="window.location='vacio.html'" width="30" />
+      </div>
+    </header>
+
+    <!--
+    ************************************************
+    *      Contenido de la CESTA de la compra      *
+    ************************************************
+    -->
+    <!--10. ERROR: Añadir etiquetas main para la parte principal de la página, y article para subzonas CESTA y FACTURACIÖN-->
+    <main>
+      <article>
+        <div id="articulos">
+          <p class="t2">Cesta de la compra</p>
+          <!--1. ERROR: eliminar las etiquetas obsoletas center y strong e insertar un caption con el mismo párrafo en la tabla-->
+          <!--<center>
+          <p><strong>Artículos en la cesta de la compra</strong></p>
+            </center>-->
+          <table summary="4 columnas (producto, PVP, UDs, Eur), 4 filas" id="tabla_compra">
+            <!--Añadir caption-->
+            <caption>Artículos en la cesta de la compra</caption>
+            <tr id="conceptos">
+              <!--2. ERROR: cambiar etiquetas td por th para las cabeceras de la tabla-->
+              <th>Producto</th>
+              <th>PVP</th>
+              <th>UDs.</th>
+              <th>Eur.</th>
+            </tr>
+            <tr class="producto">
+              <td class="producto" id="id978842043022">
+                <p><a href="http://www.lamardeletras.com/tienda.php?ver=libro&codigo=22012"><img
+                      src="img/978842043022.GIF" alt="" />Donde viven los monstruos</a>
+                  de SENDAK, MAURICE.</p>
+                <p>Editorial Alfaguara: Madrid, 1995.</p>
+                <p>ISBN: 978-84-20430-22-5 </p>
+              </td>
+              <td>13,45 &euro;</td>
+              <!--7. Error: Añdir etiquetas label asociadas a los id de los input (Sin embargo, no se corrige el error)-->
+              <td><label for="a_uds"><input type="text" id="a_uds" name="a_uds" value="1" size="4" /></td>
+              <td>13,45 &euro;</td>
+            </tr>
+            <tr class="producto">
+              <td class="producto" id="id978849638856">
+                <p><a href="http://www.lamardeletras.com/tienda.php?ver=libro&codigo=25924"><img
+                      src="img/978849638856.GIF" alt="" />Los tres bandidos</a>
+                  de UNGERER, TOMI. </p>
+                <p>Editorial Kalandraka: Sevilla 2007.</p>
+                <p>ISBN 978-84-96388-56-7</p>
+              </td>
+              <td>15,00 &euro;</td>
+              <!--7. Error: Añdir etiquetas label asociadas a los id de los input (Sin embargo, no se corrige el error)-->
+              <td><label for="b_uds"><input type="text" id="b_uds" name="b_uds" value="1" size="4" /></td>
+              <td>15,00 &euro;</td>
+            </tr>
+            <tr class="producto">
+              <td class="producto" id="id978842418108">
+                <p><a href="http://www.lamardeletras.com/tienda.php?ver=libro&codigo=40898"><img
+                      src="img/978842418108.GIF" alt="" />El día en que a mamá se le puso cara de tetera</a>
+                  de SAIZ, RAQUEL. </p>
+                <p>OQO Editora: Pontevedra, 2007.</p>
+                <p>ISBN: 978-84-96788-37-4 </p>
+              </td>
+              <td>12,50 &euro;</td>
+              <!--7. Error: Añdir etiquetas label asociadas a los id de los input (Sin embargo, no se corrige el error)-->
+              <td><label for="c_uds"><input type="text" id="c_uds" name="c_uds" value="2" size="4" /></td>
+              <td>25,00 &euro;</td>
+            </tr>
+            <tr id="total">
+              <td colspan="3" align="right"><b>Precio Total</b></td>
+              <td>53,45 &euro;</td>
+            </tr>
+          </table>
+
+          <!--16. ERROR: Agrandar el tamaño del texto en CSS-->
+          <p id="info_en">Non european customers can request a VAT refund</p>
+
+        </div>
+      </article>
+      <!--
+        ************************************************
+        *             DATOS de facturación             *
+        ************************************************
+        -->
+      <!--10. Article para subzonas CESTA y FACTURACIÖN-->
+      <article>
+        <div id="datos">
+          <p class="t2">Datos de facturación</p>
+          <p class="info"><span class="i">i</span> Los campos marcados en rojo son obligatorios.</p>
+          <form action="vacio.html">
+            <table id="tabladatos">
+              <tr>
+                <td>
+                  <p><strong>Datos personales</strong></p>
+                </td>
+                <td>
+                  <p><strong>Datos de envío</strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="campo_form">
+                    <!--3. ERROR: falta enlazar todos los label con los input. Añadir label for-->
+                    <label for="empresa">Empresa </label>
+                    <input type="text" id="empresa" name="empresa" />
+                  </div>
+                </td>
+                <td>
+                  <div class="campo_form">
+                    <label for="dir" class="obligatorio">Dirección </label>
+                    <input type="text" id="dir" name="dir" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="campo_form">
+                    <label for="nombre" class="obligatorio">Nombre </label>
+                    <input type="text" id="nombre" name="nombre" />
+                  </div>
+                </td>
+                <td>
+                  <div class="campo_form">
+                    <label for="localidad" class="obligatorio">Localidad </label>
+                    <input type="text" id="localidad" name="localidad" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="campo_form">
+                    <label for="apellidos" class="obligatorio">Apellidos </label>
+                    <input type="text" id="apellidos" name="apellidos" />
+                  </div>
+                </td>
+                <td>
+                  <div class="campo_form">
+                    <label for="provincia" class="obligatorio">Provincia </label>
+                    <input type="text" id="provincia" name="provincia" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="campo_form">
+                    <label for="email" class="obligatorio">e-mail </label>
+                    <input type="text" id="email" name="email" />
+                  </div>
+                </td>
+                <td>
+                  <div class="campo_form">
+                    <label for="cp" class="obligatorio">CP </label>
+                    <input type="text" id="cp" name="cp" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="campo_form">
+                    <label for="tlf" class="obligatorio">Tlf. de contacto </label>
+                    <input type="text" id="tlf" name="tlf" />
+                  </div>
+                </td>
+                <td>
+                  <div class="campo_form">
+                    <label>Horario de entrega </label>
+                    <select name="horario">
+                      <option value="all">Todo el día</option>
+                      <option value="a">De 9:00 a 14:00 horas</option>
+                      <option value="b">De 14:00 a 19:00 horas</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="campo_form">
+                    <label for="nif">NIF/CIF </label>
+                    <input type="text" id="nif" name="nif" />
+                  </div>
+                </td>
+                <td>
+                </td>
+              </tr>
+            </table>
+
+            <div style="text-align:center; margin: 1em">
+              <img src="img/horizontal_separator.gif" alt="separador" width="400" height="3" />
+            </div>
+
+            <div>
+              <label>¿Desea recibir información sobre nuestras promociones?</label>
+              <select id="info_promociones" name="info_promociones"
+                onchange="showhide(this, document.getElementById('lista_promociones'))">
+                <option value="si" selected="selected">SI</option>
+                <option value="no">NO</option>
+              </select>
+            </div>
+
+            <div id="lista_promociones">
+              <p>Sí, deseo recibir información sobre promociones de:</p>
+              <!--8. ERROR: añadir etiquetas fieldset y legend-->
+              <fieldset>
+                <legend>Libros:</legend>
+                <div class="grupo_check">
+                  <!--14. ERROR: Cambiar los valores de los id de los unput por el valor correspondiente-->
+                  <!--15. ERROR: Asociar los label a sus respectivos input con label for-->
+                  <div>
+                    <input type="checkbox" name="prom" id="hispanoamericana" value="hispanoamericana">
+                    <label for="hispanoamericana">Literatura hispano americana</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="prom" id="extranjera" value="extranjera">
+                    <label for="extranjera">Literatura extanjera </label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="prom" id="clasicosespannoles" value="clasicosespannoles">
+                    <label for="clasicosespannoles">Clásicos españoles</label>
+                  </div>
+                </div>
+
+                <div class="grupo_check">
+                  <div>
+                    <input type="checkbox" name="prom" id="clasicosmundiales" value="clasicosmundiales">
+                    <label for="clasicosmundiales">Clásicos mundiales </label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="prom" id="biografia" value="biografia">
+                    <label for="biografia">Biografía</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="comic" id="comic" value="comic">
+                    <label for="comic">Cómic y novela gráfica </label>
+                  </div>
+                </div>
+
+                <div class="grupo_check">
+                  <div>
+                    <input type="checkbox" name="prom" id="infantil" value="infantil">
+                    <label for="infantil">Literatura infantil </label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="prom" id="juvenil" value="juvenil">
+                    <label for="juvenil">Literatura juvenil </label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="prom" id="tecnico" value="tecnico">
+                    <label for="tecnico">Libro técnico</label>
+                  </div>
+                </div>
+                </legend>
+              </fieldset>
+            </div>
+
+            <div id="div_captcha">
+              Escriba los siguientes caracteres:
+              <img src="img/Captcha-ejemplo.jpg" alt="" width="78" height="32" />
+              <label for="captcha">Captcha:</label>
+              <input type="text" id="captcha" size="5" onblur="document.forms[0].submit()" />
+
+            </div>
+            <p id="submit">
+              <input type="submit" value="Realizar Pedido" />
+            </p>
+          </form>
+      </article>
+    </main>
+  </div>
+
+  <!--
+      ************************************************
+      *           Información de GARANTIAS           *
+      ************************************************
+      -->
+  <!--11. ERROR: Añadir etiquetas aside para zona GARANTÍAS-->
+  <aside>
+    <div id="garantias">
+
+      <p class="t2">Garantías</p>
+
+      <p class="t3">Devolución o anulación de pedido</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin condimentum, diam in porta ullamcorper, ipsum
+        nisi venenatis dui, quis convallis purus lectus vel magna. Morbi consectetuer odio sed nibh. Sed turpis sapien,
+        ultrices ac, condimentum eu, imperdiet sed, pede. Suspendisse potenti. Sed elit risus, accumsan eget, accumsan
+        non, placerat ac, massa. Vivamus egestas, leo eget nonummy consectetuer, mi enim imperdiet lorem, ut rhoncus
+        ligula diam at nisi. Morbi porta malesuada lorem. Donec euismod nunc venenatis purus. In cursus sagittis ipsum.
+        Sed dapibus fermentum dolor. Quisque in lacus sit amet turpis adipiscing tristique. Aliquam elit. Mauris sit
+        amet magna. Nulla id mi. Duis dui augue, porttitor id, pellentesque in, venenatis dapibus, ligula. </p>
+
+      <!--17. ERROR: Corregir y añadir etiquetas de lista ordenada-->
+      <p class="lista">
+      <ol>
+        <li>Nullam ut ante nec dolor aliquam auctor.</li>
+        <li>Aenean ultrices elit id felis.</li>
+        <li>Maecenas nec erat eget eros malesuada nonummy.</li>
+        <li>Nulla facilisi.</li>
+      </ol>
+
+      <p>Donec congue. Donec dictum nisi eget nisl. Aenean sed arcu et tortor laoreet rhoncus. Mauris vulputate. Morbi
+        pellentesque, nisi eget vestibulum luctus, enim mi iaculis risus, sit amet facilisis purus nulla quis elit. Sed
+        velit turpis, eleifend in, ultricies non, egestas vulputate, urna. Ut ut tellus et metus auctor hendrerit.
+        Aliquam in turpis. Aliquam rutrum mollis nulla. Sed quis pede. Quisque a massa. Quisque feugiat urna a metus.
+        Nulla urna. Cras diam est, scelerisque ut, rutrum quis, luctus a, dolor.</p>
+
+        <!--18. ERROR: Corregir color de contraste de la clase t3-->
+      <p class="t3">Seguridad</p>
+
+      <p>Nam vitae risus eu risus eleifend blandit. Donec viverra. In at velit. Nullam in dolor. Vestibulum blandit sem
+        ut purus. Fusce mattis est ut nibh. Fusce tellus nunc, ullamcorper ac, iaculis ac, auctor a, odio. Nullam
+        egestas magna ut tortor. Vestibulum posuere. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. Sed eu eros. </p>
+
+      <p class="t3">Privacidad</p>
+
+      <p>Vestibulum in leo. Nam leo. Phasellus nec sem. Etiam ultrices varius arcu. In justo felis, pulvinar id,
+        tristique placerat, tincidunt vel, dui. Nunc eu ante. Vestibulum pede. Ut ultricies posuere tellus. Morbi
+        tincidunt leo vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        hymenaeos. Etiam sagittis. Pellentesque sollicitudin. Aliquam in lectus sagittis neque iaculis luctus. Duis et
+        lacus at diam interdum aliquet. Curabitur nulla sem, ullamcorper in, tincidunt non, luctus a, justo.</p>
+
+      <p class="t3">Pago contra reembolso</p>
+
+      <p>Cras ut risus accumsan magna condimentum dictum. Maecenas condimentum nisl. Integer sollicitudin, leo sodales
+        tincidunt tristique, leo tortor consectetuer arcu, in lacinia dui augue a lectus. Maecenas sodales augue ut
+        ligula. Vestibulum ante quam, hendrerit nec, adipiscing ac, posuere vel, nunc. Aenean suscipit dictum pede.
+        Donec et quam. Nam faucibus, magna ut eleifend ultrices, metus sapien accumsan velit, quis tincidunt enim metus
+        a leo. Nunc nonummy massa et eros. Mauris odio nibh, imperdiet sed, dictum at, tristique sed, lectus. Nam
+        vestibulum tincidunt augue.</p>
+
+    </div>
+  </aside>
+  <!--
+    ************************************************
+    *                 PIE de página                *
+    ************************************************
+    -->
+  <!--12. ERROR: Añadir etiqueta footer-->
+  <footer>
+    <p id="pie">2017 - misLibros.</p>
+  </footer>
+  <!--13. ERROR: eliminar la siguiente etiqueta de cierre </div> (sobra porque no tiene etiqueta de apertura y ese div no tiene utilidad)
+  </div>-->
+
+</body>
+
+</html>

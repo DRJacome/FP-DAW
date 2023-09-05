@@ -1,0 +1,179 @@
+header, nav, footer, .siteAds1, .siteAds2 {
+    background-color: #FA7D09;
+    border-radius: 5px;
+}
+
+header {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 10px;
+}
+
+nav {
+   display: flex;
+   flex-direction: column;
+   width: 35vw;
+   padding: 1% 0 0 1%;
+   height: 74vh;
+   font-size: large;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: stretch;
+}
+
+.centro {
+    display: flex;
+}
+
+.mainArticle {
+    background-image: url(../imaxes/317-1499x1000.jpg);
+    background-size: cover;
+    background-position: center 0px;
+}
+
+article {
+    display: flex;
+}
+
+aside {
+   display: flex;
+   flex-direction: column;
+   width: 35%;
+   gap: 10px;
+   background-color: white;
+   align-content: stretch;
+   padding-left: 10px;
+}
+
+.siteAds1, .siteAds2 {
+    height: 37.5vh;
+}
+
+.mainArticle p, .siteAds1 p, .siteAds2 p {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1024px) and (min-width:800px) {
+    header,
+    footer {
+        width: 100%;
+    }
+    .centro {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    article {
+        height: 70%;
+        width: 82.3vw;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    nav {
+        width: 25%;
+        height: 70vh;
+        padding-left: 2%;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        width: 82vw;
+        padding: 0;
+    }
+    .siteAds1, .siteAds2 {
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:360px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+        height: fit-content;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    
+    section {
+        flex-direction: column;
+        width: 99%;
+    }
+
+    .centro {
+        flex-direction: column;
+        width: 95.5vw;
+    }
+
+    article {
+        height: 50vh;
+    }
+
+    aside {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95.5vw;
+        margin-top: 10px;
+        padding: 0;
+    }
+    
+    .siteAds1, .siteAds2 {
+        height: fit-content;  
+    }
+}
+
+@media screen and (max-width:360px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 100%;
+        height: fit-content;
+        justify-content: space-around;
+        padding: 2% 0 2%;
+        
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .centro {
+        flex-direction: column;
+        width: 95.5vw;
+    }
+
+    .mainArticle p {
+        background: inherit;
+        background-clip: text;
+        color: transparent;
+        filter: contrast(5) contrast(1);
+    }
+
+    aside {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 10px;
+        width: 95.5vw;
+        height: 40vh;
+    }
+
+    footer {
+        display: block;
+        padding-left: 14%;
+    }
+}

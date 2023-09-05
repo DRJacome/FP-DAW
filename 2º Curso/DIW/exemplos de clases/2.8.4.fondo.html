@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("images/fondo3.jpg");
+            
+            background-repeat: no-repeat;
+            background-position: top center ;
+            background-attachment: scroll;
+            background-size:480px;
+            opacity: 90%;
+        }
+        .capa1{
+            position: absolute;
+            top:2000px;
+            /*background-color: blueviolet;*/
+            background: linear-gradient( to top right, blueviolet, forestgreen, indianred );
+            color: wheat;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+            text-align: center;
+            height: 200px;
+            width: 100%;
+            margin:0px auto;
+        }
+
+        .capa2{
+            position: absolute;
+            top:1000px;
+            /*background-color: blueviolet;*/
+            background: radial-gradient(circle, red , yellow , green  );
+            
+            color: wheat;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+            text-align: center;
+            height: 200px;
+            width: 100%;
+            margin:0px auto;
+        }
+        .capa3{
+            position: absolute;
+            top:700px;
+            /*background-color: blueviolet;*/
+            background: conic-gradient(red, yellow, green, blue, black);
+            border-radius: 50%;
+            color: wheat;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            margin:0px auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Ejemplo de fondo</h1>
+    <div class="capa2">PRINCIPAL</div>
+    <div class="capa3"></div>
+    <div class="capa1">FOOTER</div>
+</body>
+</html>

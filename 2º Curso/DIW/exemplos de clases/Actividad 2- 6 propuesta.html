@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+
+div#body  {
+    /*Define una identificador "body" asociado a un elemento <div>. 
+    Es la posicion del cuerpo de la pagina 
+    (barra lateral mas contenido) */
+    margin:auto auto auto auto;  /* top right bottom left: equivale 
+    a poner un solo auto */
+    width:710px; /* El ancho del estilo lo coloca en 710px */
+}
+
+
+div#header {
+    /*Define una identificador "header" asociado a un elemento <div>. 
+    Es la posici�n de la cabecera */
+    margin:10px auto;
+    width:710px;
+    border:dotted 1px#ccc;
+}
+div#sidebar {
+    display:none;
+    border:solid 1px #CFC;
+}
+
+body.main-sidebar div#main, body.sidebar-main div#main { 
+    /*main */
+    width:490px;
+}
+
+body.main-sidebar div#sidebar, body.sidebar-main div#sidebar {
+    /* menu */
+    display:block;
+    width:200px;
+    border:solid 1px #CCC;
+}
+body.main-sidebar div#main, body.main-sidebar div#sidebar { 
+/*Main-sidebar. Este estilo coloca el sidebar a la derecha y el 
+main a la izquierda */
+    float:left;
+    border:solid 1px #ccc;
+    }
+body.sidebar-main div#main, body.sidebar-main div#sidebar {
+/*Sidebar-main. Este estilo coloca el sidebar a la izquierda y 
+el main a la derecha*/
+    float:right;
+    border:dotted 1px #ccc;
+}
+
+</style>
+</head>
+
+<body class="sidebar-main">
+<!-- <body class="sidebar-main"> -->
+<!-- <body class="main-sidebar"> -->
+<div id="header">Cabecera. RESTAURANTE: El muslito</div>
+
+<div id="body">
+<div id="main">Este restaurante es una de las referencias gastron�micas del esta zona. [...] </div>
+<div id="sidebar">Men� principal </div>
+
+</div>
+
+
+<div id="footer">Pie de p�gina</div>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_7 prubea css fuentes</title>
+    <style>
+        @font-face {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Raleway"), local("Raleway-Regular"),
+                url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        .letra {
+            font-family: "Raleway";
+            font-style: oblique;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="letra">Probrando letras con estilo Raleway</p>
+    <p>Letras con otro estilo</p>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2_9_APosicionamiento</title>
+    <style>
+        .capa1 {
+            z-index: 9;
+            position: absolute;
+            background-color: #606;
+            color: #ffc;
+            padding: 10px;
+            text-align: center;
+            width: 300px;
+            top:0;
+        }
+
+        .capa2 {
+            z-index: 1;
+            position: relative;
+            width: 300px;
+            padding: 10px;
+            background-color: #066;
+            color: #ffc;
+            left: 30px;
+        }
+
+        .capa3 {
+            z-index: 1;
+            position: fixed;
+            bottom: 0px;
+            width: 300px;
+            padding: 10px;
+            background-color: #066;
+            color: #ffc;
+            left: 30px;
+        }
+
+        .capa4 {
+            z-index: 19;
+            position: sticky;
+            width: 300px;
+            padding: 10px;
+            background-color: crimson;
+            color: #ffc;
+            left: 30px;
+            top: 0px;
+            bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>No define posición</h1>
+    <div class="capa1">No define posición, por lo que es absolute.</div>
+    <div class="capa2">Capa de posicionamiento relative<br>Se tiene en cuenta esta capa para posicionar las siguientes.
+    </div>
+    <h2>la última en ponerse</h2>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Fondo de la página</h1>
+    <br>
+    <div class="capa4">Capa 4 sticky</div>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <div class="capa3">Pie de pagina</div>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas 2.4.2</title>
+    <style>
+        div {
+            margin-top: 2%;
+            margin-left: 30%;
+        }
+
+        .tabla1 {
+            border-spacing: 10px;
+            background-color: #F1F1F1;
+            border: 1px solid black;
+            margin-left: 15%;
+            margin-bottom: 100px;
+        }
+
+        .tabla1 tr td {
+            text-align: center;
+        }
+
+        .cabeceras {
+            background-color: #D65600;
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+            box-shadow: 2px 2px 3px grey;
+        }
+
+        .celdas {
+            border: 1px solid grey;
+            font-size: 14px;
+            
+        }
+
+        .tabla2 {
+            border: 1px solid grey;
+            border-spacing: 0px;
+            width: 650px;
+            margin-left: 4%;
+        }
+
+        .cabeceras2 {
+            background-color: #C5C5C5;
+            border-bottom: 1px solid #888888;
+            
+            box-shadow: 1px 1px 1px #8C8C8C;
+            color: white;
+            text-align: left;
+        }
+        
+        .primeraFila {
+            border-right: 1px solid #888888;
+            text-align: center;
+        }
+        .celdas2 {
+            text-align: right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <table class="tabla1">
+            <caption style="margin: 5px; color: #D65600; font-size: 23px;">Título de la tabla</caption>
+            <tr>
+                <td class="cabeceras">...</td>
+                <td class="cabeceras">Columna 1</td>
+                <td class="cabeceras">Columna 2</td>
+                <td class="cabeceras">Columna 3</td>
+            </tr>
+            <tr>
+                <td class="cabeceras">Fila 1</td>
+                <td class="celdas">celda 11</td>
+                <td class="celdas">celda 12</td>
+                <td class="celdas">celda 13</td>
+            </tr>
+            <tr>
+                <td class="cabeceras">Fila 2</td>
+                <td class="celdas">celda 21</td>
+                <td class="celdas">celda 22</td>
+                <td class="celdas">celda 23</td>
+            </tr>
+            <tr>
+                <td class="cabeceras">Fila 3</td>
+                <td class="celdas">celda 31</td>
+                <td class="celdas">celda 32</td>
+                <td class="celdas">celda 33</td>
+            </tr>
+        </table>
+        <table class="tabla2">
+            <caption style="margin: 5px; color: grey; font-size: 23px;">Índice de precios de Consumo</caption>
+            <tr class="cabeceras2">
+                <td class="cabeceras2"></td>
+                <td class="primeraFila">2012M03</td>
+                <td class="primeraFila">2012M02</td>
+                <td class="primeraFila">2012M01</td>
+                <td class="primeraFila">2012M03</td>
+                <td class="primeraFila">2012M02</td>
+                <td class="primeraFila">2012M01</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">General</td>
+                <td class="celdas2">101,055</td>
+                <td class="celdas2">100,38</td>
+                <td class="celdas2">100,275</td>
+                <td class="celdas2">0,7</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">-1,1</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Alimentos y bebidas</td>
+                <td class="celdas2">101,574</td>
+                <td class="celdas2">101,472</td>
+                <td class="celdas2">101,357</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">0,3</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Alcohólicas y tabaco</td>
+                <td class="celdas2">102,658</td>
+                <td class="celdas2">102,606</td>
+                <td class="celdas2">102,285</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">0,3</td>
+                <td class="celdas2">0,2</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Vestido y calzado</td>
+                <td class="celdas2">95,131</td>
+                <td class="celdas2">91,604</td>
+                <td class="celdas2">93,232</td>
+                <td class="celdas2">3,9</td>
+                <td class="celdas2">-1,7</td>
+                <td class="celdas2">-14,4</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Vivienda</td>
+                <td class="celdas2">102,154</td>
+                <td class="celdas2">101,908</td>
+                <td class="celdas2">101,729</td>
+                <td class="celdas2">0,2</td>
+                <td class="celdas2">0,2</td>
+                <td class="celdas2">0,5</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Menaje</td>
+                <td class="celdas2">100,33</td>
+                <td class="celdas2">100,059</td>
+                <td class="celdas2">100,118</td>
+                <td class="celdas2">0,3</td>
+                <td class="celdas2">-0,1</td>
+                <td class="celdas2">-0,9</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Medicina</td>
+                <td class="celdas2">97,704</td>
+                <td class="celdas2">97,709</td>
+                <td class="celdas2">97,648</td>
+                <td class="celdas2">0</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">-0,1</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Transporte</td>
+                <td class="celdas2">105,058</td>
+                <td class="celdas2">103,498</td>
+                <td class="celdas2">102,657</td>
+                <td class="celdas2">1,5</td>
+                <td class="celdas2">0,8</td>
+                <td class="celdas2">1,8</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Comunicaciones</td>
+                <td class="celdas2">97,15</td>
+                <td class="celdas2">97,048</td>
+                <td class="celdas2">96,999</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">-2,1</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Ocio y cultura</td>
+                <td class="celdas2">99,838</td>
+                <td class="celdas2">99,109</td>
+                <td class="celdas2">98,873</td>
+                <td class="celdas2">0,7</td>
+                <td class="celdas2">0,2</td>
+                <td class="celdas2">-2,4</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Enseñanza</td>
+                <td class="celdas2">102,106</td>
+                <td class="celdas2">102,097</td>
+                <td class="celdas2">102,073</td>
+                <td class="celdas2">0</td>
+                <td class="celdas2">0</td>
+                <td class="celdas2">0,1</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Hoteles,...</td>
+                <td class="celdas2">100,204</td>
+                <td class="celdas2">99,983</td>
+                <td class="celdas2">99,923</td>
+                <td class="celdas2">0,2</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">-0,1</td>
+            </tr>
+            <tr>
+                <td class="cabeceras2">Otros servicios</td>
+                <td class="celdas2">101,631</td>
+                <td class="celdas2">101,515</td>
+                <td class="celdas2">101,237</td>
+                <td class="celdas2">0,1</td>
+                <td class="celdas2">0,3</td>
+                <td class="celdas2">0,5</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

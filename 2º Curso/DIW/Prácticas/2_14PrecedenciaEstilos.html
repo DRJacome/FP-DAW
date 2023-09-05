@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel=stylesheet href="miestilo1.css" type="text/css" media="screen">
+    <style>
+        p { /*Peso: 1*/
+            /*background-color: red !important;*/
+            background-color: crimson;
+            background-color: blue;
+        }
+        .parrafo {/*Peso: 10*/
+            background: pink;
+        }
+        p.parrafo {/*Peso: 11*/
+            background: maroon;
+        }
+        #id-parrafo {/*Peso: 100*/
+            background: red;
+        }
+        p.parrafo#id-parrafo {/*Peso: 111*/
+            background: green;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>El fondo de este párrafo será de color carmesí</p>
+    <p class="parrafo">El fondo de este párrafo será de color granate</p>
+    <div class="parrafo">
+        El fondo de este párrafo será de color rosa
+        <p>El fondo de esta linea es carmesí</p>
+        El fondo de este párrafo vuelve ser de color rosa
+    </div>
+    <p id="id-parrafo" style="background: black; color: white;"> El fondo de este párrafo será negro porque usa un
+        atributo de estilo (con peso 1000) dentro de la etiqueta </p>
+    <p id="id-parrafo">El fondo de este párrafo será de color rojo</p>
+    <p id="id-parrafo" class="parrafo">El fondo es de color verde</p>
+</body>
+
+</html>

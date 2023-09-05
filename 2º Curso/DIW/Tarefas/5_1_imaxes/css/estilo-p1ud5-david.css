@@ -1,0 +1,105 @@
+header {
+    border: 1px solid rgb(0, 191, 255);
+    background-color: rgb(0, 191, 255);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: background-color 1s linear;
+}
+
+/* Index */
+#sectionIndex {
+    height: 70vh;
+}
+/**/
+
+.inicio {
+    margin-bottom: 2vh;
+}
+.inicio a {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+.navmenu {
+    background: aqua;
+    border: 1px solid aqua;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    transition: background-color 3s step-start;
+}
+
+.navmenu li {
+    color: black;
+    display: block;
+    padding: 0.3em;
+    text-decoration: none;
+    float: left;
+    width: 13%;
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #7c7c7c;
+}
+
+#imagenes figure img {
+    max-width: 94vw;
+}
+
+#ac2 {
+    height: 64vh;
+}
+
+#ac4 {
+    height: 64vh;
+}
+
+#ac5 img {
+    height: 48vh;
+    padding-left: 35vw;
+}
+
+/* AC 6 */
+.mod {
+    height: 100vh;
+}
+/**/
+
+/* AC 7 */
+.panoramica {
+    max-width: 95vw;
+}
+
+#contenedor {
+    position: relative;
+}
+
+#titulo {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 3em;
+    text-align: center;
+    top: 1vh;
+    left: 35vw;
+}
+
+footer {
+    border: 1px solid rgb(0, 191, 255);
+    border-radius: 10px;
+    background-color: rgb(0, 191, 255);
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    transition: background-color 3s ease-in;
+}

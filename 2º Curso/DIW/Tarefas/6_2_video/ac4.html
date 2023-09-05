@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo-p2ud6-david.css" rel="stylesheet">
+    <title>p2ud6-david</title>
+</head>
+
+<body>
+    <header>
+        <h1>Deseño de Interfaces Web</h1>
+        <h2>2º Curso</h2>
+        <h2>UD 6</h2>
+        <h3>David Rodríguez Jácome</h3>
+        <nav>
+            <div class="inicio"><a href="p2ud6-david.html">Volver al inicio</a></div>
+            <ul class="navmenu">
+                <li style="border-left:none"><a href="ac1.html">Actividade 1</a></li>
+                <li><a href="ac2.html">Actividade 2</a></li>
+                <li><a href="ac3.html">Actividade 3</a></li>
+                <li style="border-right: none"><a href="ac4.html">Actividade 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article id="ac4">
+            <h3>Actividade 4</h3>
+            <p>Añade al vídeo una pista de audio libre, usa una de las que te proporciona youtube.</p>
+            <p>Al vídeo de la actividad anterior, añade los subtítulos en castellano, gallego, portugués, inglés y
+                francés en el que se describa que es lo que pasa en el vídeo durante por lo menos 45 segundos. Usa el
+                formato vtt.</p>
+            <p>Para este punto puedes usarla siguinte web:
+                <a href="https://www.nikse.dk/SubtitleEdit/Online#">nikse.dk</a>
+            </p>
+            <p>Añade una imagen de portada.</p>
+            <p>Añádelo a la página web (que crearás en la siguiente actividad) de dos formas:</p>
+            <ul>
+                <li>
+                    <p>1º Usando las etiquetas de vídeo source (1º descargará el generado en la actividad 4,
+                        de no soportarlo descargará el original) y la etiqueta track.</p>
+                </li>
+                <div class="AC4video">
+                    <video autoplay poster="images/poster.png" controls>
+                        <source src="videos/conversiones/1 Big Buck Bunny Loves Creative Commons.webm"
+                            type="video/webm">
+                        <source src="videos/originales/1 Big Buck Bunny Loves Creative Commons.mp4" type="video/mp4">
+                        <track src="subs/subEsp.vtt" kind="subtitles" srclang="es" label="Castellano">
+                        <track src="subs/subEng.vtt" kind="subtitles" srclang="en" label="English">
+                        <track src="subs/subFra.vtt" kind="subtitles" srclang="fr" label="Francés">
+                        <track src="subs/subGal.vtt" kind="subtitles" srclang="gl" label="Galego">
+                        <track src="subs/subPrt.vtt" kind="subtitles" srclang="pt" label="Portugués">
+                        Tu navegador no puede reproducir o encontrar el <code>vídeo</code>.
+                    </video>
+                </div>
+                <li>
+                    <p>2º Incrustando el vídeo directamente desde youtube con un iframe. Tamaño del marco 400x200. Los
+                        subtítulos en este caso estarán directamente en youtube. Haz que se reproduzca de forma
+                        automática y en bucle.</p>
+                    <p>Si se trata de un navegador de terminal de texto (o sin capacidades gráficas), mostrará el texto
+                        "Su
+                        navegador no soporta contenido multimedia".</p>
+                    <p>Se debe permitir que el usuario pueda descargar el vídeo desde un enlace (puede ser una imagen,
+                        la de la
+                        portada) y que el nombre del video sea “miVideoNombreAlumno”.</p>
+                </li>
+                <div class="AC4video">
+                    <iframe src="https://youtu.be/CK1J_54KEPk" width="400" height="200"
+                        title="Big Buck Bunny Loves Creative Commons" poster="images/poster.png" autoplay loop>
+                    </iframe>
+                    <div>
+                        Si tu navegador no soporta contenido multimedia, puedes descargarlo en
+                        <a href="videos/conversiones/miVideoDavid.webm" download>este enlace.</a>
+                    </div>
+                </div>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <p>Desenvolvido por David Rodríguez</p>
+        <p>2022</p>
+    </footer>
+</body>
+
+</html>

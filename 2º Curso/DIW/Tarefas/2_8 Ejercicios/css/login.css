@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "LigatureSymbols";
+    src: url("../fontes/LigatureSymbols-2.11.woff");
+}
+
+[class^="icon-"], [class*="icon-"] {
+    margin-right: 13px;
+    font-family: "LigatureSymbols";
+    font-style: normal;
+    font-size: 3em;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #294072;
+}
+
+section {
+    width: 500px;
+    height: 430px;
+    background-color: #1C2B4A;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px black;
+    color: white;
+}
+
+h1{
+    background-color: #17233B;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.superior {
+    padding: 20px 30px;
+}
+
+.user, .pass {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #12192C;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    border-radius:5px;
+    background-color: #00CC66;
+    color: white;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inferior {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inferior a {
+    padding-left: 120px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.facebook {
+    margin-top: 10%;
+    border: 1px solid #3B5A9A;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(24, 51, 139);
+    background-color: #3B5A9A;
+    padding: 8px;
+}
+
+.twitter {
+    margin-top: 10%;
+    margin-left: 12%;
+    border: 1px solid #2CA8D2;
+    border-radius: 5px;
+    border-bottom: 2px solid #017bab;
+    background-color: #2CA8D2;
+    padding: 8px;
+}
+
+.pie {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #17233B;
+    padding-top: 15px;
+    height: 68px;
+}
+
+.pie p{
+    padding-left: 5%;
+    margin-top: 2%;
+}
+
+.pie p a {
+    border-bottom: 2px solid #0A4636;
+    border-radius: 5px;
+    background-color: #13A077;
+    margin-left: 185px;
+    padding: 4%;
+}

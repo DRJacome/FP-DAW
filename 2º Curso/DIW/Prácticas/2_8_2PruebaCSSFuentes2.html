@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_8PruebaCSSFuentes2</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mystery+Quest" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Festive" />
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    /*los enlaces "@import url" deben ir seguidos, y luego las clases a las que refieren*/
+    /*@import url(https://fonts.googleapis.com/css?family=Mystery+Quest);
+    @import url(https://fonts.googleapis.com/css2?family=Festive&display=swap);*/
+
+    .mystery {
+        font-family: "Mystery Quest", sans-serif;
+        font-size: 150%;
+    }
+
+    .festive {
+        font-family: "Festive", sans-serif;
+        font-size: 200%;
+    }
+
+    .rampartOne {
+        font-family: 'Rampart One', cursive;
+    }
+    table {
+        width: 100%;
+        height: 100%;
+        border: 10px black solid;
+        border-radius: 20px;
+        caption-side: top;
+    }
+    td {
+        height: 100%;
+    }
+</style>
+
+<body>
+    <p class="mystery">Fuente de Google Docs Mystery Quest</p>
+    <h1 class="festive">Fuente festive</h1>
+    <p class="rampartOne">Fuente de Google Fonts Rampart One</p>
+    <h1>Fuente normal</h1>
+    <h2 style="color:red; text-transform: capitalize;">Fuente en línea</h2>
+
+    <table>
+        <caption>Leyenda de ejemplo caption</caption>
+        <tr>
+            <td style="text-align: center; border: 5px solid blue;">Celda alineada centro 5px sólida azul</td>
+            <td style="text-align: left; border: 5px solid green;">Celda alineada izquierda 5px sólida verde</td>
+            <td style="text-align: right; border: 5px solid red;">Celda alineada derecha 5px sólida roja</td>
+            <td style="text-align: justify; border: 5px solid yellow;">Celda alineada justificada 5px sólida amarilla</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: baseline; border: 10px double; color: red;">Celda alineada vertical baseline borde 10px doble roja</td>
+            <td style="vertical-align: sub; border:  10px double; color: black;">Celda alineada vertical sub borde 10px doble negra</td>
+            <td style="vertical-align: super; border:  10px double; color: blue;">Celda alineada vertical sub borde 10px doble azul</td>
+            <td style="vertical-align: top; border:  10px double; color: brown;">Celda alineada vertical sub borde 10px doble marrón</td>
+            <td style="vertical-align: text-top; border:  10px double; color: darkgoldenrod;">Celda alineada vertical sub borde 10px doble dorada</td>
+            <td style="vertical-align: middle; border:  10px double; color: blueviolet;">Celda alineada vertical sub borde 10px doble violeta</td>
+            <td style="vertical-align: bottom; border:  10px double; color: darkolivegreen;">Celda alineada vertical sub borde 10px doble verde</td>
+            <td style="vertical-align: text-bottom; border:  10px double; color: hotpink;">Celda alineada vertical sub borde 10px doble rosa</td>
+
+        </tr>
+        <tr>
+            <td style="text-decoration: none; border: 10px solid; color: blue">Celda texto sin decorado azul</td>
+            <td style="text-decoration: underline; border: 10px solid; color: green">Celda texto subrayado</td>
+            <td style="text-decoration: overline; border: 10px solid; color: red">Celda texto sobrerayado</td>
+            <td style="text-decoration: line-through; border: 10px solid; color: blueviolet">Celda texto tachado</td>
+        </tr>
+        <tr>
+            <td style="text-transform: none; border: 10px dotted; color: brown;">texto sin transformar</td>
+            <td style="text-transform: capitalize; border: 10px dotted; color: red;">texto letra capital</td>
+            <td style="text-transform: uppercase; border: 10px dotted; color: blue;">texto mayúsculas</td>
+            <td style="text-transform: lowercase; border: 10px dotted; color: hotpink;">texto minúsculas</td>
+        </tr>
+        <tr>
+            <td style="text-shadow: 2px 2px; border: 5px solid; color: blue;">Texto sombreado</td>
+        </tr>
+        <tr>
+            <td style="text-overflow: clip; border: 10px dashed; color: yellowgreen">Comportamiento cuando el texto no cabe clip</td>
+            <td style="text-overflow: ellipsis; border: 10px dashed; color: yellowgreen">Comportamiento cuando el texto no cabe ellipsis</td>
+        </tr>
+        <tr>
+            <td style="letter-spacing: normal; border: 10px dotted; color: brown;">Espacio entre letras normal</td>
+            <td style="letter-spacing: 10px; border: 10px dotted; color: blue;">Espacio entre letras 10 px</td>
+        </tr>
+        <tr>
+            <td style="line-height: normal; border: 10px solid; color: black;">Espcio entre líneas normal</td>
+            <td style="line-height: 10px; border: 10px solid; color: green;">Espcio entre líneas normal</td>
+        </tr>
+        <tr>
+            <td style="text-indent: 20px; border: 10px dashed; color: red;">Indentación del texto (sangría)</td>
+        </tr>
+    </table>
+</body>
+</html>

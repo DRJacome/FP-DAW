@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_8_9BEnlaces</title>
+    <style>
+        a.menus:link {
+               text-decoration: none;
+               color: #000000;
+               border: #FFFFFF 1px solid;
+       }
+        /* Link no visitado*/
+        a.menus:visited {
+            text-decoration: none;
+            color: #cccccc;
+        }
+        /*Link visitado*/
+          a.menus:active {
+            text-decoration: none;
+            color: #003399;
+            background: green;
+            border: #FFFFFF 1px solid;
+       }
+        /*Link activo*/
+            a.menus:hover {
+            text-decoration: underline;
+            color: #003399;
+            background: red;
+            border: #FFFFFF 1px solid;
+       }
+        /*Ratón sobre el link*/ 
+        .centrado{
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            margin:15px auto 15px auto;
+        }
+       </style>
+</head>
+<body>
+    <a href="#" class="menus">Enlace uno</a>
+    <a href="#" class="menus">Enlace dos </a>
+   <a href="#" class="menus">Enlace tres</a>
+   <div class="centrado">hola</div>
+   
+   </body>
+</html>

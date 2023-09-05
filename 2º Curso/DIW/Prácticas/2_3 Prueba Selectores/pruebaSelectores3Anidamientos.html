@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*h1 i b,
+        h1 b {
+            color: red;
+        }
+        /*h1>b {
+            color: red;
+        }
+
+        i+b {
+            color: green;
+        }
+
+        i+b {
+            color: red
+        }*/
+
+        i+b {color:red} /*Anidamiento adyacente*/
+        .nivel1 { color:green; }
+         .nivel2 { color:blue; }
+        ul ul .nivel2 { Font-size: x-small; font-weight: 600;} /*Anidamiento común*/
+        ul> ul> li { font-size: x-small; color:red; } /*Anidamiento común*/
+    </style>
+</head>
+
+<body>
+    <!--Ejemplo de anidamiento común-->
+    <h1><i><b> Un texto h1 en negrita, cursiva y rojo </b></i> </h1>
+    <h1><b>Un texto en negrita, vermello e h1</b></h1>
+    <b> Un texto en negrita y rojo </b>
+    </p>
+    <i><b>Un texto en negrita, cursiva y rojo</b></i>
+    </p>
+    <!-- Exemplo de anidamiento de hijos-->
+    <h1><b><i>Un texto h1 en negrita, cursiva y rojo</i></b></h1>
+    <h1><b>Un texto en negrita y rojo</b></h1>
+    </p>
+    <h1><i><b> Un texto h1 en negrita, cursiva y negro</b></i></h1>
+    <h1><b><i><u> Un texto en h1, negrita, cursiva, rojo y subrayado</u></i></b></h1>
+    <i><u>
+            <h1><b>Un texto en h1, negrita, cursiva, rojo y subrayado</b></h1>
+        </u>
+    </i>
+    </p>
+    <!--Ejemplo de anidamiento adyacente-->
+    <p><i>Nota</i>, esto es una <b>advertencia</b></p>
+    <b>Leer detenidamente</b>
+    </p>
+    <!--Actividad-->
+    <h1><p><i>Título</i>: <b> Anidamiento y agrupamiento </b> de selectores </p>
+    </h1>
+    <ul>
+        <li class="nivel1"> Agrupamiento</li>
+        <li class="nivel1"> Anidamiento</li>
+        <ul>
+            <li class="nivel2"> Anidamiento de hijos</li>
+            <li class="nivel2"> Anidamiento de adyacentes</li>
+            <li> Anidamiento común</li>
+        </ul>
+    </ul>
+</body>
+</html>

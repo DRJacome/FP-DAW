@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_8_8PseudoElementos</title>
+    <style>
+        p {
+            font-size: 14px;
+            width: 150px;
+        }
+        p:first-letter {
+            font-size: 2em;
+            
+        }
+        p:first-line{
+            text-transform: uppercase;
+        }
+        div p:first-child {
+            color:red;
+        }
+        p.errores:before {
+            content: "ERRORES COMUNES ";
+        }
+        p.ejemplo:after {
+            content: "";
+            display: block;
+            width:200px;
+            height:50px;
+            border: 1px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <p>primera letra más grande, primera línea en mayúsculas; prueba de pseudo elementos.</p>
+    <div>
+         <p>primera letra más grande, primera línea en mayúsculas; prueba de pseudo elementos.</p>
+         <p>primera letra más grande, primera línea en mayúsculas; prueba de pseudo elementos.</p>
+    </div>
+    <p class="errores">Contenido del párrafo.</p>
+    <p class="ejemplo">primera letra más grande, primera línea en mayúsculas; prueba de pseudo elementos.</p>
+
+</body>
+</html>

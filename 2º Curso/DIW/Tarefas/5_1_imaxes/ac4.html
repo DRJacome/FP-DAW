@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo-p1ud5-david.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico"/>
+    
+    <title>AC4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Deseño de Interfaces Web</h1>
+        <h2>2º Curso</h2>
+        <h2>UD 5</h2>
+        <h3>David Rodríguez Jácome</h3>
+        <nav>
+            <div class="inicio"><a href="p1ud5-david.html">Volver al inicio</a></div>
+            <ul class="navmenu">
+                <li style="border-left:none"><a href="ac1.html">Actividade 1</a></li>
+                <li><a href="ac2.html">Actividade 2</a></li>
+                <li><a href="ac3.html">Actividade 3</a></li>
+                <li><a href="ac4.html">Actividade 4</a></li>
+                <li><a href="ac5.html">Actividade 5</a></li>
+                <li><a href="ac6.html">Actividade 6</a></li>
+                <li style="border-right: none"><a href="ac7.html">Actividade 7</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="ac4">
+        <h3>Actividade 4</h3>
+        <p>Crea un logotipo personal con una imagen SVG directamente en HTML. Usa como referencia la web de
+            w3schools.
+            Usa por lo menos 4 formas básicas (linea, circulo, rectángulo, etc.) y un texto.</p>
+        <h4>Mi SVG</h4>
+        <svg height="150" width="400">
+            <defs>
+                <linearGradient id="grad1" x1="35%" y1="5%" x2="75%" y2="25%">
+                    <stop offset="15%" style="stop-color:rgb(0, 187, 93);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(2, 131, 170);stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <rect width="350" height="150" style="fill:rgb(55, 76, 168);stroke-width:5;stroke:rgb(0,0,0)" />
+            <polygon points="0,0 350,149 210,210" style="fill:rgb(255, 230, 0);stroke:purple;stroke-width:1" />
+            <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255, 255, 255);stroke-width:2" />
+            <line x1="0" y1="0" x2="470" y2="200" style="stroke:rgb(255, 255, 255);stroke-width:2" />
+            <ellipse cx="180" cy="75" rx="88" ry="55" fill="url(#grad1)" />
+            <text fill="white" font-size="45" font-family="Verdana" x="135" y="90">DRJ</text>
+        </svg>
+    </article>
+    <footer>
+        <p>Desenvolvido por David Rodríguez</p>
+        <p>2022</p>
+        <p>Tódolos dereitos reservados</p>
+    </footer>
+</body>
+
+</html>

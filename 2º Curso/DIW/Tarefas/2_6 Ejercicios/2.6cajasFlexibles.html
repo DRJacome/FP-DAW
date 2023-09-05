@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox ejemplos</title>
+    <style>
+        #contenedor-flexible1 {
+            background-color: #808080;
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #contenedor-flexible2 {
+            background-color: #808080;
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #contenedor-flexible3 {
+            background-color: #808080;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #contenedor-flexible4 {
+            background-color: #808080;
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #contenedor-flexible5 {
+            background-color: #808080;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #contenedor-flexible6 {
+            background-color: #808080;
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #contenedor-flexible7 {
+            background-color: #808080;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            border-radius: 10px;
+            align-self: center;
+        }
+
+        #contenedor-flexible8 {
+            background-color: #808080;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin: 10px;
+            border-radius: 10px;
+            align-self: center;
+        }
+
+        #contenedor-flexible9 {
+            background-color: #808080;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        #contenedor-flexible9 .item-flex {
+            align-content: stretch;
+            height: 200px;
+        }
+
+        #contenedor-flexible10 {
+            background-color: #808080;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin: 10px;
+            border-radius: 10px;
+            height: 200px;
+        }
+
+        #contenedor-flexible11 {
+            background-color: #808080;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            border-radius: 10px;
+            height: 300px;
+        }
+
+        #contenedor-flexible12 {
+            background-color: #808080;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            border-radius: 10px;
+            height: 300px;
+        }
+
+        .item-flex {
+            color: #CEB66A;
+            font-size: 50px;
+            font-weight: bold;
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            margin: 2px;
+            text-align: center;
+            width: 90px;
+            height: 90px;
+            padding-top: 13px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor-flexible1">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+    </div>
+    <div id="contenedor-flexible2">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+    </div>
+    <div id="contenedor-flexible3">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+    </div>
+    <div id="contenedor-flexible4">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+    </div>
+    <div id="contenedor-flexible5">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+    </div>
+    <div id="contenedor-flexible6">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+    </div>
+    <div id="contenedor-flexible7">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+        <div class="item-flex">6</div>
+        <div class="item-flex">7</div>
+        <div class="item-flex">8</div>
+        <div class="item-flex">9</div>
+        <div class="item-flex">10</div>
+    </div>
+    <div id="contenedor-flexible8">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+        <div class="item-flex">6</div>
+        <div class="item-flex">7</div>
+        <div class="item-flex">8</div>
+        <div class="item-flex">9</div>
+        <div class="item-flex">10</div>
+    </div>
+    <div id="contenedor-flexible9">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+    </div>
+    <div id="contenedor-flexible10">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+    </div>
+    <div id="contenedor-flexible11">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+    </div>
+    <div id="contenedor-flexible12">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+        <div class="item-flex">6</div>
+        <div class="item-flex">7</div>
+        <div class="item-flex">8</div>
+        <div class="item-flex">9</div>
+        <div class="item-flex">10</div>
+        <div class="item-flex">11</div>
+        <div class="item-flex">12</div>
+        <div class="item-flex">13</div>
+        <div class="item-flex">14</div>
+        <div class="item-flex">15</div>
+        <div class="item-flex">16</div>
+        <div class="item-flex">17</div>
+        <div class="item-flex">18</div>
+        <div class="item-flex">19</div>
+        <div class="item-flex">20</div>
+    </div>
+</body>
+
+</html>

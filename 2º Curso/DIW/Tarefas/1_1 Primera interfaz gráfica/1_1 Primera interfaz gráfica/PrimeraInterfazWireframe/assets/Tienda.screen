@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Browser" id="1" x="24" y="7" width="929" height="1178" text="Browser&#xA;http://..." measuredWidth="929" measuredHeight="1178" value="25" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="79" x="24" y="59" width="914" height="1126" measuredWidth="914" measuredHeight="1126"/>
+  <widgets xsi:type="model:Label" id="14" x="363" y="93" text="SorprendeT" measuredWidth="252" measuredHeight="73">
+    <font size="48px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="50" x="24" y="296" width="914" height="241" measuredWidth="914" measuredHeight="241" background="#e06666" foreground="#e06666"/>
+  <widgets xsi:type="model:SearchField" id="21" x="96" y="85" width="81" text="Búsqueda" measuredWidth="81" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="858" y="117" text="Tu compra" measuredWidth="60" measuredHeight="58" textAlignment="Center" icon="shopping-cart (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="31" x="795" y="85" text="Castellano,Inglés" measuredWidth="111" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="58" height="23" text="Castellano"/>
+    <items x="76" y="0" width="34" height="23" text="Inglés"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="35" x="357" y="165" width="263" measuredWidth="263" measuredHeight="6"/>
+  <widgets xsi:type="model:Menu" id="42" x="436" y="188" text="&amp;Blog,&amp;Contacto" measuredWidth="105" measuredHeight="27">
+    <items x="5" y="0" width="35" height="27" text="&amp;Blog"/>
+    <items x="40" y="0" width="60" height="27" text="&amp;Contacto"/>
+  </widgets>
+  <widgets xsi:type="model:CoverFlow" id="43" x="24" y="296" width="913" height="241" measuredWidth="913" measuredHeight="241"/>
+  <widgets xsi:type="model:VideoPlayer" id="44" x="272" y="296" width="433" height="241" measuredWidth="433" measuredHeight="241"/>
+  <widgets xsi:type="model:Text" id="46" x="337" y="248" width="303" height="23" text="Encuentra lo que buscas. Descubre lo que no esperas." measuredWidth="303" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="48" x="48" y="81" measuredWidth="32" measuredHeight="32" icon="list (large)"/>
+  <widgets xsi:type="model:HSplitter" id="67" x="37" y="568" width="888" measuredWidth="888" measuredHeight="11"/>
+  <widgets xsi:type="model:Group" id="84" x="24" y="624" width="913" height="233" text="Productos de interés:" measuredWidth="913" measuredHeight="233" value="25" background="#6fa8dc" alpha="192">
+    <font size="16px" bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="97" x="80" y="664" measuredWidth="809" measuredHeight="161">
+    <widgets xsi:type="model:WidgetGroup" id="86" measuredWidth="809" measuredHeight="122">
+      <widgets xsi:type="model:Image" id="68" width="129" height="122" measuredWidth="129" measuredHeight="122" src="assets/1.jpg"/>
+      <widgets xsi:type="model:Image" id="70" x="168" width="129" height="121" measuredWidth="129" measuredHeight="121" src="assets/2.jpg"/>
+      <widgets xsi:type="model:Image" id="71" x="344" width="129" height="122" measuredWidth="129" measuredHeight="122" src="assets/3.jpg"/>
+      <widgets xsi:type="model:Image" id="72" x="512" width="129" height="121" measuredWidth="129" measuredHeight="121" src="assets/4.jpg"/>
+      <widgets xsi:type="model:Image" id="73" x="680" width="129" height="121" measuredWidth="129" measuredHeight="121" src="assets/5.jpg"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="74" x="36" y="138" text="Producto1" measuredWidth="61" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="75" x="210" y="138" text="Producto2" measuredWidth="61" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="76" x="385" y="138" text="Producto3" measuredWidth="61" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="77" x="547" y="138" text="Producto4" measuredWidth="61" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="78" x="717" y="138" text="Producto5" measuredWidth="61" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="88" x="24" y="968" width="913" height="217" measuredWidth="913" measuredHeight="217" background="#93c47d" alpha="128" border="none"/>
+  <widgets xsi:type="model:Map" id="81" x="690" y="1002" width="232" height="158" measuredWidth="232" measuredHeight="158"/>
+  <widgets xsi:type="model:Label" id="82" x="847" y="975" text="Localización:" measuredWidth="74" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="83" x="804" y="992" width="117" measuredWidth="117" measuredHeight="6"/>
+  <widgets xsi:type="model:Accordion" id="89" x="48" y="117" width="129" text="Catálogo&#xA;-General&#xA;-Descatalogados&#xA;Novedades&#xA;Tendencias&#xA;Ropa&#xA;Complementos&#xA;Infantil&#xA;Regalos&#xA;Halloween&#xA;Navidad&#xA;Reservas" measuredWidth="129" measuredHeight="307" selection="0">
+    <items x="0" y="2" width="129" height="25" text="Catálogo"/>
+    <items x="0" y="27" width="129" height="25" text="-General"/>
+    <items x="0" y="52" width="129" height="25" text="-Descatalogados"/>
+    <items x="0" y="82" width="129" height="25" text="Novedades"/>
+    <items x="0" y="107" width="129" height="25" text="Tendencias"/>
+    <items x="0" y="132" width="129" height="25" text="Ropa"/>
+    <items x="0" y="157" width="129" height="25" text="Complementos"/>
+    <items x="0" y="182" width="129" height="25" text="Infantil"/>
+    <items x="0" y="207" width="129" height="25" text="Regalos"/>
+    <items x="0" y="232" width="129" height="25" text="Halloween"/>
+    <items x="0" y="257" width="129" height="25" text="Navidad"/>
+    <items x="0" y="282" width="129" height="25" text="Reservas"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="53" x="58" y="1080" width="32" height="32" measuredWidth="32" measuredHeight="32" foreground="#f90" icon="rss (large)"/>
+  <widgets xsi:type="model:Label" id="94" x="775" y="117" text="Iniciar sesión" measuredWidth="71" measuredHeight="58" textAlignment="Center" icon="user (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="103" x="58" y="1120" text="Facebook" measuredWidth="54" measuredHeight="42" textAlignment="Center" foreground="#073763" icon="facebook (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="120" y="1120" text="Instagram" measuredWidth="56" measuredHeight="42" textAlignment="Center" foreground="#b45f06" icon="snapshot (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="105" x="184" y="1120" text="Twitter" measuredWidth="38" measuredHeight="42" textAlignment="Center" foreground="#3d85c6" icon="twitter (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="233" y="1120" text="LinkedIn" measuredWidth="48" measuredHeight="42" textAlignment="Center" foreground="#00f" icon="assets/linkedin-alt (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="109" x="58" y="1113" width="224" measuredWidth="224" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="111" x="58" y="1010" text="612 345 678" measuredWidth="82" measuredHeight="23" textAlignment="Center" foreground="#900" icon="phone (small)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="113" x="58" y="983" text="Contacto:" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="114" x="54" y="1005" measuredWidth="100" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="115" x="58" y="1032" text="www.sorprendet.es" measuredWidth="123" measuredHeight="23" textAlignment="Center" foreground="#900" icon="at (small)">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

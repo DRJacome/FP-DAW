@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "MiMenu";
+  src: url("../fuentes/menu.woff");
+}
+
+[class^="icon-"], [class*="icon-"] {
+  margin-right: 3px;
+  font-family: "Mimenu";
+  font-style: normal;
+}
+
+.icon-inicio::before {
+  content: "\e900";
+}
+.icon-anadir::before {
+  content: "\ea0a";
+}
+.icon-listar::before {
+  content: "\e922";
+}
+.icon-borrar::before {
+  content: "\ea0b";
+}
+.icon-buscar::before {
+  content: "\e986";
+}
+.icon-modificar::before {
+  content: "\e905";
+}
+.icon-salir::before {
+  content: "\e9b6";
+}
+
+html {
+  background-color: lightgrey;
+}
+
+h1 {
+  position: relative;
+}
+
+.lista1 {
+  overflow: hidden;
+}
+
+.lista1 li {
+  display:block;
+  float: left;
+  width: 10%;
+  background-color: #5ACE77;
+  border: 5px dashed #954A95;
+  color: darkblue;
+  font-weight: bold;
+  list-style: none;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.lista2 {
+  overflow: hidden;
+  margin-left: 50%;
+}
+
+.lista2 li {
+background-color: whitesmoke;
+display: block;
+float: left;
+width: auto;
+text-align: center;
+margin: 5px;
+padding: 7px;
+border: 1px solid;
+border-top: whitesmoke;
+border-left: whitesmoke;
+}
+
+.lista3 {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 10%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista3 li {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  text-align: center;
+  font-size: 15px;
+  background-color: whitesmoke;
+}
+
+.lista4 {
+  overflow: hidden;
+  margin-left: 40%;
+  list-style: none;
+  text-align: center;
+}
+
+.lista4 li {
+  background-color: white;
+  color: blue;
+  width: 15%;
+  float: left;
+  margin: 2px;
+  padding: 10px;
+}
+
+.lista4 .par{
+  background-color: #3366CC;
+  color: white;
+  padding: 10px;
+}
+
+.lista5 {
+  overflow: hidden;
+  list-style: none;
+  
+}
+
+.lista5 li {
+  float: left;
+  margin-right: 20px;
+}
+
+.lista6 {
+  overflow: hidden;
+  list-style: none;
+  margin-left: 50%;
+}
+
+.lista6 li {
+  background-color: white;
+  float: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 2em;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+
+div#body  {
+    /*Define una identificador "body" asociado a un elemento <div>. 
+    Es la posici�n del cuerpo de la p�gina (barra lateral m�s contenido) */
+    margin:auto auto auto auto;  
+    /* top right bottom left: equivale a poner un s�lo auto */
+    width:710px; /* El ancho del estilo lo coloca en 710px */
+}
+
+div#header {
+    /*Define una identificador "header" asociado a un elemento <div>. 
+        Es la posici�n de la cabecera */
+    margin:10px auto 10px auto;
+    width:710px;
+    border:solid 3px blue;
+    border-radius: 15px; /*borde redondeado de radio 15px */
+}
+
+div#sidebar{
+    display:none;
+    border:solid 1px #CFC;
+    padding-left:15px; /*Se modifica el margen interior*/
+}
+
+div#footer{
+    /*Define una identificador "footer" asociado a un elemento <div>. 
+    Es la posici�n del pie de p�gina */
+    margin:25px auto 25px auto;
+    width:710px;
+    border:solid 3px green;
+    border-radius: 15px; /*borde redondeado de radio 15px */
+    clear:both;/* Deja sin utilidad la opci�n de float:right o left*/ 
+}
+
+
+body.sidebar-main div#footer  {
+    /*Define una identificador "footer" asociado a un elemento <div>. 
+    Es la posici�n del pie de p�gina */
+    margin:25px auto 25px auto;
+    width:710px;
+    border:solid 3px green;
+    border-radius: 15px; /*borde redondeado de radio 15px */
+    clear:right;/* Deja sin utilidad la opci�n de float:right */ 
+}
+
+
+body.main-sidebar div#footer {
+    /*Define una identificador "footer" asociado a un elemento <div>. 
+    Es la posici�n del pie de p�gina */
+    margin:15px auto 15px auto;
+    width:710px;
+    border:solid 3px blue;
+    border-radius: 15px; /*borde redondeado de radio 15px */
+    clear:left;/* Deja sin utilidad la opci�n de float:left*/
+}
+
+
+body.main-sidebar div#main, body.sidebar-main div#main {
+    width:490px;
+    /*border:solid 1px green;*/
+}
+
+body.main-sidebar div#body, body.sidebar-main div#body {
+    margin:auto auto auto auto;
+    width:710px;
+    border:solid 1px #FFF;
+}
+
+body.main-sidebar div#sidebar, body.sidebar-main div#sidebar {
+    display:block;
+    width:200px;
+    border:dotted 1px green;
+}
+
+body.main-sidebar div#main, body.main-sidebar div#sidebar  {
+    /*Main-sidebar. Este estilo coloca el sidebar a la derecha y el main a la izquierda */
+    float:left;
+    /* border:dotted 1px green; */
+}
+
+body.sidebar-main div#main, body.sidebar-main div#sidebar {
+    /*Sidebar-main. Este estilo coloca el sidebar a la izquierda y el main a la derecha*/
+    float:right;
+    /*border:dotted 1px green;*/
+}
+
+
+
+</style>
+</head>
+
+<body class="sidebar-main">
+<div id="header">Cabecera. RESTAURANTE: El muslito</div>
+
+<div id="body">
+<div id="main">Este restaurante es una de las referencias gastron�micas del esta zona. [...] </div>
+<div id="sidebar">Men� principal </div>
+
+</div>
+
+
+<div id="footer">Pie de p�gina</div>
+
+
+
+</body>
+
+
+</html>

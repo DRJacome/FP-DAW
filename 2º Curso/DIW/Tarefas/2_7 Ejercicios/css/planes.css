@@ -1,0 +1,46 @@
+body {
+    background-color: #BCBCBC;
+}
+
+article {
+    margin-left: 15%;
+}
+
+div {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    float:left;
+    width: 23%;
+    margin-right: 3%;
+    padding: 20px;
+    text-align: justify;
+}
+
+img {
+    width: 95%;
+    max-height: 200px;
+    padding-left: 13px;
+}
+
+h3 {
+    margin: auto;
+}
+
+.naturaleza {
+    margin-bottom: 15%;
+}
+
+.info {
+    background-color: #404B4F;
+    width: 90%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30%;
+}

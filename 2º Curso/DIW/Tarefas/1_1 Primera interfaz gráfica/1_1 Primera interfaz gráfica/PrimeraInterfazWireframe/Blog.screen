@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Browser" id="1" x="24" y="7" width="929" height="1157" text="Browser&#xA;http://soprendet/blog" measuredWidth="929" measuredHeight="1157" value="25" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="79" x="24" y="59" width="914" height="1106" measuredWidth="914" measuredHeight="1106"/>
+  <widgets xsi:type="model:SearchField" id="21" x="96" y="85" width="91" text="Búsqueda" measuredWidth="91" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="31" x="795" y="85" text="Castellano,Inglés" measuredWidth="111" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="58" height="23" text="Castellano"/>
+    <items x="76" y="0" width="34" height="23" text="Inglés"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="42" x="412" y="184" text="&amp;Tienda,&amp;Contacto" measuredWidth="142" measuredHeight="27" icon="hand-cursor (small)">
+    <items x="26" y="0" width="46" height="27" text="&amp;Tienda"/>
+    <items x="72" y="0" width="60" height="27" text="&amp;Contacto"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="88" x="27" y="944" width="913" height="104" measuredWidth="913" measuredHeight="104" background="#93c47d" alpha="128" border="none"/>
+  <widgets xsi:type="model:Label" id="94" x="825" y="116" text="Iniciar sesión" measuredWidth="71" measuredHeight="50" textAlignment="Center" icon="user (medium)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="156" x="58" y="1064" measuredWidth="224" measuredHeight="89">
+    <widgets xsi:type="model:Icon" id="53" measuredWidth="32" measuredHeight="32" foreground="#f90" icon="rss (large)"/>
+    <widgets xsi:type="model:Label" id="103" y="47" text="Facebook" measuredWidth="54" measuredHeight="42" textAlignment="Center" foreground="#073763" icon="facebook (small)" iconPosition="top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="104" x="62" y="47" text="Instagram" measuredWidth="56" measuredHeight="42" textAlignment="Center" foreground="#b45f06" icon="snapshot (small)" iconPosition="top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="105" x="126" y="47" text="Twitter" measuredWidth="38" measuredHeight="42" textAlignment="Center" foreground="#3d85c6" icon="twitter (small)" iconPosition="top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="106" x="175" y="47" text="LinkedIn" measuredWidth="48" measuredHeight="42" textAlignment="Center" foreground="#00f" icon="assets/linkedin-alt (small)" iconPosition="top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="109" y="40" width="224" measuredWidth="224" measuredHeight="6"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="157" x="747" y="1072" measuredWidth="128" measuredHeight="74">
+    <widgets xsi:type="model:Label" id="111" y="27" text="612 345 678" measuredWidth="82" measuredHeight="23" textAlignment="Center" foreground="#900" icon="phone (small)">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="113" text="Contacto:" measuredWidth="58" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="114" y="22" measuredWidth="100" measuredHeight="6"/>
+    <widgets xsi:type="model:Label" id="115" x="5" y="51" text="www.sorprendet.es" measuredWidth="123" measuredHeight="23" textAlignment="Center" foreground="#900" icon="at (small)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Group" id="117" x="48" y="232" width="870" height="185" text="Noticias relacionadas" measuredWidth="870" measuredHeight="185" background="#9fc5e8">
+    <font size="13px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="118" x="89" y="268" width="133" height="111" measuredWidth="133" measuredHeight="111" src="assets/1.jpg"/>
+  <widgets xsi:type="model:HSlider" id="120" x="47" y="416" width="871" measuredWidth="871" measuredHeight="17"/>
+  <widgets xsi:type="model:Image" id="122" x="422" y="268" width="133" height="107" measuredWidth="133" measuredHeight="107" src="assets/2.jpg"/>
+  <widgets xsi:type="model:Image" id="123" x="248" y="268" width="133" height="109" measuredWidth="133" measuredHeight="109" src="assets/3.jpg"/>
+  <widgets xsi:type="model:Image" id="124" x="583" y="268" width="135" height="109" measuredWidth="135" measuredHeight="109" src="assets/4.jpg"/>
+  <widgets xsi:type="model:Image" id="126" x="744" y="268" width="134" height="109" measuredWidth="134" measuredHeight="109" src="assets/5.jpg"/>
+  <widgets xsi:type="model:TextArea" id="129" x="89" y="376" width="133" height="25" text="Merch" measuredWidth="133" measuredHeight="25" textAlignment="Center" alpha="198" borderColor="#9fc5e8">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="131" x="248" y="376" width="133" height="25" text="Estados de ánimo" measuredWidth="133" measuredHeight="25" textAlignment="Center" alpha="195" borderColor="#9fc5e8">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="132" x="422" y="376" width="133" height="25" text="Decoración" measuredWidth="133" measuredHeight="25" textAlignment="Center" alpha="200" borderColor="#9fc5e8">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="133" x="584" y="376" width="133" height="25" text="Vintage" measuredWidth="133" measuredHeight="25" textAlignment="Center" alpha="198" borderColor="#9fc5e8">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="134" x="744" y="376" width="133" height="25" text="Amistades" measuredWidth="133" measuredHeight="25" textAlignment="Center" alpha="198" borderColor="#9fc5e8">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="145" x="24" y="480" width="912" measuredWidth="912" measuredHeight="465">
+    <widgets xsi:type="model:Group" id="116" width="912" height="465" text="Foros" measuredWidth="912" measuredHeight="465">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="135" x="10" y="17" width="484" height="438" measuredWidth="484" measuredHeight="438" background="#9fc5e8" border="solid-rounded"/>
+    <widgets xsi:type="model:Panel" id="136" x="521" y="17" width="378" height="438" measuredWidth="378" measuredHeight="438" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="137" x="532" y="27" width="61" text="Foro 2" measuredWidth="61" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="138" x="530" y="64" width="360" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="360" measuredHeight="120">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="139" x="532" y="328" width="61" text="Foro 4" measuredWidth="61" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="140" x="532" y="192" width="61" text="Foro 3" measuredWidth="61" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="141" x="532" y="224" width="360" height="105" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="360" measuredHeight="105">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="142" x="530" y="364" width="360" height="81" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="360" measuredHeight="81">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="144" x="889" y="17" height="448" measuredWidth="17" measuredHeight="448"/>
+    <widgets xsi:type="model:Image" id="147" x="53" y="90" width="399" height="238" text="Titulo hilo" measuredWidth="399" measuredHeight="238" border="true" src="assets/6.jpg"/>
+    <widgets xsi:type="model:Text" id="148" x="53" y="341" width="399" height="104" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="399" measuredHeight="104">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="150" x="53" y="27" width="352" text="Foro 1" measuredWidth="352" measuredHeight="46" background="#9fc5e8" borderColor="#9fc5e8">
+      <font size="28px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="151" x="53" y="72" width="104" measuredWidth="104" measuredHeight="6"/>
+  </widgets>
+  <widgets xsi:type="model:HSplitter" id="146" x="48" y="456" width="871" measuredWidth="871" measuredHeight="11"/>
+  <widgets xsi:type="model:Icon" id="152" x="435" y="69" width="94" height="105" measuredWidth="94" measuredHeight="105" icon="assets/fa-pastafarianism (custom)"/>
+  <widgets xsi:type="model:HLine" id="153" x="431" y="173" width="105" measuredWidth="105" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="154" x="48" y="81" measuredWidth="32" measuredHeight="32" icon="list (large)"/>
+  <widgets xsi:type="model:Accordion" id="155" x="48" y="117" width="129" text="Foros&#xA;-Temáticas&#xA;-Hilos" measuredWidth="129" measuredHeight="106" selection="0">
+    <items x="0" y="2" width="129" height="32" text="Foros"/>
+    <items x="0" y="34" width="129" height="32" text="-Temáticas"/>
+    <items x="0" y="66" width="129" height="32" text="-Hilos"/>
+    <font size="15px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="200" y="15" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="4" x="374" y="146" text="&amp;Tienda,&amp;Blog" measuredWidth="108" measuredHeight="36">
+    <items x="5" y="0" width="56" height="36" text="&amp;Tienda"/>
+    <items x="61" y="0" width="42" height="36" text="&amp;Blog"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="5" x="288" y="131" width="64" height="66" measuredWidth="64" measuredHeight="66" icon="assets/fa-pastafarianism (custom)"/>
+  <widgets xsi:type="model:Icon" id="9" x="521" y="152" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+  <widgets xsi:type="model:List" id="31" x="565" y="131" height="54" text="[x] Esp&#xA;[ ] Eng" measuredWidth="56" measuredHeight="54" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="56" height="28" text="[x] Esp"/>
+    <items x="0" y="30" width="56" height="28" text="[ ] Eng"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="34" x="223" y="216" width="409" height="103" measuredWidth="409" measuredHeight="103" background="#cfe2f3" foreground="#cfe2f3"/>
+  <widgets xsi:type="model:TextField" id="35" x="241" y="253" width="100" text="Conócenos" measuredWidth="100" measuredHeight="29" background="#cfe2f3" borderColor="#cfe2f3">
+    <font size="16px" bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="439" y="231" text="612 345 678" measuredWidth="93" measuredHeight="25" textAlignment="Center" foreground="#900" icon="phone (small)">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="419" y="255" text="www.sorprendet.es" measuredWidth="133" measuredHeight="25" textAlignment="Center" foreground="#900" icon="at (small)">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="39" x="409" y="281" text="Rúa Abc nº 15, 36123 Lalín" measuredWidth="177" measuredHeight="25" textAlignment="Center" foreground="#900" icon="home (small)">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:HSplitter" id="40" x="223" y="408" width="410" measuredWidth="410" measuredHeight="11"/>
+  <widgets xsi:type="model:Panel" id="41" x="223" y="318" width="408" height="78" measuredWidth="408" measuredHeight="78" background="#93c47d" alpha="128" border="none"/>
+  <widgets xsi:type="model:Icon" id="42" x="240" y="341" measuredWidth="32" measuredHeight="32" foreground="#f90" icon="rss (large)"/>
+  <widgets xsi:type="model:Label" id="43" x="312" y="333" text="Facebook" measuredWidth="66" measuredHeight="47" textAlignment="Center" foreground="#073763" icon="facebook (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="391" y="333" text="Instagram" measuredWidth="69" measuredHeight="47" textAlignment="Center" foreground="#b45f06" icon="snapshot (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="474" y="333" text="Twitter" measuredWidth="48" measuredHeight="47" textAlignment="Center" foreground="#3d85c6" icon="twitter (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="536" y="333" text="LinkedIn" measuredWidth="58" measuredHeight="47" textAlignment="Center" foreground="#00f" icon="assets/linkedin-alt (small)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="48" x="288" y="328" height="58" measuredWidth="6" measuredHeight="58"/>
+  <widgets xsi:type="model:Map" id="49" x="223" y="432" width="409" height="318" measuredWidth="409" measuredHeight="318"/>
+  <widgets xsi:type="model:Arrow" id="50" x="444" y="591" width="57" height="114" measuredWidth="57" measuredHeight="114" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Icon" id="51" x="500" y="560" measuredWidth="32" measuredHeight="32" foreground="#f00" icon="selected (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>
