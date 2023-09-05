@@ -1,0 +1,40 @@
+[Wed Dec 08 13:25:54.263861 2021] [ssl:info] [pid 1866:tid 140653022780480] AH01914: Configuring server tiendadavid.es:443 for SSL protocol
+[Wed Dec 08 13:25:54.264398 2021] [ssl:warn] [pid 1866:tid 140653022780480] AH01909: tiendadavid.es:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 08 13:25:54.264405 2021] [ssl:info] [pid 1866:tid 140653022780480] AH02568: Certificate and private key tiendadavid.es:443:0 configured from /etc/ssl/certs/certificado-autofirmado.crt and /etc/ssl/private/clave-privada.key
+[Wed Dec 08 13:25:54.268816 2021] [ssl:info] [pid 1867:tid 140653022780480] AH01914: Configuring server tiendadavid.es:443 for SSL protocol
+[Wed Dec 08 13:25:54.269084 2021] [ssl:warn] [pid 1867:tid 140653022780480] AH01909: tiendadavid.es:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 08 13:25:54.269090 2021] [ssl:info] [pid 1867:tid 140653022780480] AH02568: Certificate and private key tiendadavid.es:443:0 configured from /etc/ssl/certs/certificado-autofirmado.crt and /etc/ssl/private/clave-privada.key
+[Wed Dec 08 14:56:25.068383 2021] [ssl:info] [pid 1869:tid 140652897613568] [client 192.168.0.201:49693] AH01964: Connection to child 69 established (server tiendadavid.es:443)
+[Wed Dec 08 14:56:25.072108 2021] [ssl:info] [pid 1869:tid 140652897613568] [client 192.168.0.201:49693] AH01996: SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+[Wed Dec 08 14:56:25.072136 2021] [ssl:info] [pid 1869:tid 140652897613568] SSL Library Error: error:1408F09C:SSL routines:ssl3_get_record:http request
+[Wed Dec 08 14:56:25.105496 2021] [ssl:info] [pid 1869:tid 140652880828160] [client 192.168.0.201:49694] AH01964: Connection to child 71 established (server tiendadavid.es:443)
+[Wed Dec 08 14:56:25.105642 2021] [ssl:info] [pid 1869:tid 140652880828160] [client 192.168.0.201:49694] AH01996: SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+[Wed Dec 08 14:56:25.105658 2021] [ssl:info] [pid 1869:tid 140652880828160] SSL Library Error: error:1408F09C:SSL routines:ssl3_get_record:http request
+[Wed Dec 08 14:57:35.963191 2021] [ssl:info] [pid 1868:tid 140652880828160] [client 192.168.0.201:49695] AH01964: Connection to child 8 established (server tiendadavid.es:443)
+[Wed Dec 08 14:57:35.978129 2021] [ssl:info] [pid 1868:tid 140652880828160] [client 192.168.0.201:49695] AH02008: SSL library error 1 in handshake (server tiendadavid.es:443)
+[Wed Dec 08 14:57:35.978188 2021] [ssl:info] [pid 1868:tid 140652880828160] SSL Library Error: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate (SSL alert number 42)
+[Wed Dec 08 14:57:35.978202 2021] [ssl:info] [pid 1868:tid 140652880828160] [client 192.168.0.201:49695] AH01998: Connection closed to child 8 with abortive shutdown (server tiendadavid.es:443)
+[Wed Dec 08 14:59:51.246798 2021] [ssl:info] [pid 1869:tid 140652461422336] [client 192.168.0.201:49696] AH01964: Connection to child 72 established (server tiendadavid.es:443)
+[Wed Dec 08 14:59:51.283605 2021] [core:info] [pid 1869:tid 140652453029632] [client 192.168.0.201:49696] AH00128: File does not exist: /var/www/html/tienda/favicon.ico, referer: https://tiendadavid.es/
+[Wed Dec 08 15:03:41.764609 2021] [ssl:info] [pid 2921:tid 139657965653056] AH01914: Configuring server tiendadavid.es:443 for SSL protocol
+[Wed Dec 08 15:03:41.765910 2021] [ssl:warn] [pid 2921:tid 139657965653056] AH01909: tiendadavid.es:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 08 15:03:41.765929 2021] [ssl:info] [pid 2921:tid 139657965653056] AH02568: Certificate and private key tiendadavid.es:443:0 configured from /etc/ssl/certs/certificado-autofirmado.crt and /etc/ssl/private/clave-privada.key
+[Wed Dec 08 15:03:41.770993 2021] [ssl:info] [pid 2922:tid 139657965653056] AH01914: Configuring server tiendadavid.es:443 for SSL protocol
+[Wed Dec 08 15:03:41.771318 2021] [ssl:warn] [pid 2922:tid 139657965653056] AH01909: tiendadavid.es:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 08 15:03:41.771348 2021] [ssl:info] [pid 2922:tid 139657965653056] AH02568: Certificate and private key tiendadavid.es:443:0 configured from /etc/ssl/certs/certificado-autofirmado.crt and /etc/ssl/private/clave-privada.key
+[Wed Dec 08 15:04:06.941284 2021] [ssl:info] [pid 2924:tid 139657950373632] [client 192.168.0.201:49705] AH01964: Connection to child 0 established (server tiendadavid.es:443)
+[Wed Dec 08 15:04:06.941561 2021] [ssl:info] [pid 2924:tid 139657950373632] [client 192.168.0.201:49705] AH01996: SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+[Wed Dec 08 15:04:06.941611 2021] [ssl:info] [pid 2924:tid 139657950373632] SSL Library Error: error:1408F09C:SSL routines:ssl3_get_record:http request
+[Wed Dec 08 15:04:07.015462 2021] [ssl:info] [pid 2925:tid 139657950373632] [client 192.168.0.201:49706] AH01964: Connection to child 64 established (server tiendadavid.es:443)
+[Wed Dec 08 15:04:07.015715 2021] [ssl:info] [pid 2925:tid 139657950373632] [client 192.168.0.201:49706] AH01996: SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+[Wed Dec 08 15:04:07.015751 2021] [ssl:info] [pid 2925:tid 139657950373632] SSL Library Error: error:1408F09C:SSL routines:ssl3_get_record:http request
+[Wed Dec 08 15:04:16.276959 2021] [ssl:info] [pid 2925:tid 139657933588224] [client 192.168.0.201:49709] AH01964: Connection to child 66 established (server tiendadavid.es:443)
+[Wed Dec 08 15:04:16.335761 2021] [core:info] [pid 2925:tid 139657925195520] [client 192.168.0.201:49709] AH00128: File does not exist: /var/www/html/tienda/favicon.ico, referer: https://tiendadavid.es/
+[Wed Dec 08 15:04:45.206885 2021] [ssl:info] [pid 2925:tid 139657564120832] [client 192.168.0.201:49710] AH01964: Connection to child 70 established (server tiendadavid.es:443)
+[Wed Dec 08 15:04:45.208968 2021] [authn_file:error] [pid 2925:tid 139657564120832] (2)No such file or directory: [client 192.168.0.201:49710] AH01622: Could not open password file: /etc/apache/contr_digest, referer: https://tiendadavid.es/
+[Wed Dec 08 15:07:58.608856 2021] [ssl:info] [pid 2924:tid 139657941980928] [client 192.168.0.201:49719] AH01964: Connection to child 1 established (server tiendadavid.es:443)
+[Wed Dec 08 15:07:58.609097 2021] [ssl:info] [pid 2924:tid 139657941980928] [client 192.168.0.201:49719] AH01996: SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+[Wed Dec 08 15:07:58.609125 2021] [ssl:info] [pid 2924:tid 139657941980928] SSL Library Error: error:1408F09C:SSL routines:ssl3_get_record:http request
+[Wed Dec 08 15:07:58.660936 2021] [ssl:info] [pid 2925:tid 139657538942720] [client 192.168.0.201:49720] AH01964: Connection to child 73 established (server tiendadavid.es:443)
+[Wed Dec 08 15:07:58.661095 2021] [ssl:info] [pid 2925:tid 139657538942720] [client 192.168.0.201:49720] AH01996: SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+[Wed Dec 08 15:07:58.661122 2021] [ssl:info] [pid 2925:tid 139657538942720] SSL Library Error: error:1408F09C:SSL routines:ssl3_get_record:http request

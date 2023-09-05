@@ -1,0 +1,58 @@
+cd /etc/apache2/
+code ports.conf
+cd /etc/apache2/sites-available/
+code instituto.es.conf
+sudo a2ensite instituto.es.conf
+sudo service apache2 restart 
+
+<VirtualHost *:1220>
+
+ServerName institutodavid.es
+ServerAlias instituto.com
+DocumentRoot /var/www/html/instituto
+DirectoryIndex paginainicio.html
+
+Alias /info /var/www/html/instituto/contacto
+<Directory /var/www/html/instituto/contacto>
+	AllowOverride None
+	Require all granted
+</Directory>
+
+sudo htpasswd -c /etc/apache2/contr_basic juan
+sudo htpasswd /etc/apache2/contr_basic laura
+sudo htpasswd /etc/apache2/contr_basic sara
+
+alumnos: juan laura sara
+contraseñas: juan laura sara
+
+<Directory /var/www/html/instituto/alumnos>
+	AuthType Basic
+	AuthName "Para alumnos"
+	AuthBasicProvider file
+	AuthUserFile "/etc/apache2/contr_basic"
+	AuthGroupFile "/etc/apache2/grupos"
+	Require group alumnos
+</Directory>
+
+sudo a2enmod authz_groupfile
+sudo service apache2 restart
+
+sudo a2enmod auth_digest
+sudo service apache2 restart
+
+sudo htdigest -c /etc/apache2/contr_digest profesores norberto
+sudo htdigest /etc/apache2/contr_digest profesores andrea
+
+<Directory /var/www/html/instituto/profesores>
+	AllowOverride All
+	Require all granted
+</Directory>
+
+.htaccess
+AuthType Digest
+AuthName "profesores"
+AuthBasicProvider file
+AuthUserFile "/etc/apache2/contr_digest"
+Require user norberto andrea
+
+

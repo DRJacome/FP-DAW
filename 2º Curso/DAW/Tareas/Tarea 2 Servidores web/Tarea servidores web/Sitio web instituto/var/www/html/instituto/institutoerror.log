@@ -1,0 +1,7 @@
+[Mon Dec 06 20:24:48.825142 2021] [core:info] [pid 3659:tid 139684731127552] [client 192.168.0.201:49761] AH00128: File does not exist: /var/www/html/instituto/favicon.ico, referer: http://institutodavid.es:1220/
+[Mon Dec 06 20:24:53.896200 2021] [auth_digest:error] [pid 3659:tid 139684714342144] [client 192.168.0.201:49761] AH01790: user `fews' in realm `profesores' not found: /profesores/pagprofesores.html, referer: http://institutodavid.es:1220/
+[Mon Dec 06 23:38:48.330345 2021] [core:info] [pid 3574:tid 140683435792128] [client 192.168.0.201:49788] AH00128: File does not exist: /var/www/html/instituto/favicon.ico, referer: http://institutodavid.es:1220/
+[Tue Dec 07 01:20:51.641265 2021] [core:info] [pid 5847:tid 140309759563520] [client 192.168.0.201:49833] AH00128: File does not exist: /var/www/html/instituto/favicon.ico, referer: http://institutodavid.es:1220/
+[Tue Dec 07 01:21:06.284590 2021] [core:info] [pid 5847:tid 140309509949184] [client 192.168.0.201:49836] AH00128: File does not exist: /var/www/html/instituto/favicon.ico, referer: http://institutodavid.es:1220/
+[Tue Dec 07 01:52:12.836275 2021] [core:info] [pid 5847:tid 140308528494336] [client 192.168.0.201:49858] AH00128: File does not exist: /var/www/html/instituto/favicon.ico, referer: http://institutodavid.es:1220/
+[Wed Dec 08 14:56:18.594129 2021] [core:info] [pid 1868:tid 140652906006272] [client 192.168.0.201:49692] AH00128: File does not exist: /var/www/html/instituto/favicon.ico, referer: http://tiendadavid.es:1220/

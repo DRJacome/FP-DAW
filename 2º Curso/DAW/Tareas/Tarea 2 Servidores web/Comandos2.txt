@@ -1,0 +1,24 @@
+sudo a2enmod ssl
+
+openssl genrsa -out clave-privada.key 2048
+
+openssl req -new -key clave-privada.key -out solicitude-certificado.csr
+openssl x509 -req -days 365 -in solicitude-certificado.csr -signkey clave-privada.key -out certificado-autofirmado.crt
+
+sudo mv clave-privada.key /etc/ssl/private/
+
+sudo mv certificado-autofirmado.crt /etc/ssl/certs/
+
+sudo chown root:ssl-cert /etc/ssl/private/clave-privada.key
+sudo chmod 644 /etc/ssl/private/clave-privada.key
+sudo chown root:ssl-cert /etc/ssl/certs/certificado-autofirmado.crt
+
+sudo a2enmod auth_digest
+sudo a2ensite tienda.es.conf
+sudo service apache2 restart
+
+sudo htdigest -c /etc/apache2/contr_digest xestion pepe
+sudo htdigest /etc/apache2/contr_digest xestion manolo
+
+
+
