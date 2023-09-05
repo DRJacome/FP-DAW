@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>Restaurante Chinés He-Lao 2</title>
+    <link rel='stylesheet' type='text/css' href='./estilos/estilos.css'>
+    <script type="text/javascript" src="./scripts/jquery.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        //EXERCICIO 6
+        $("#formulario").validate({
+            rules: {
+                "direccion": "required",
+                "telefono": {required: true, pattern: /[0-9]{9}$/},
+                "cantidade": {required: true, pattern: /[0-9]/},
+            },
+            messages: {
+                "direccion": "<br>Introduzca unha dirección",
+                "telefono": "<br>Introduzca un telefono",
+                "cantidade": "<br>Introduzca unha cantidade"
+            },
+            debug: true,
+            errorElement: "em",
+            errorClass: "errores"
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <h1>Restaurante Chinés He-Lao</h1>
+    <h2>Menú Online</h2>
+    <form method="post" id="formulario">
+        <fieldset>
+            <legend>Entrantes</legend>
+            <div>
+                <label>
+                    <input type="checkbox" name="rolo" value="vietnamita" id="rolo" />Roliños de primavera</label>
+                <span><input type="text" name="cantidade" size="2" placeholder="0" id="cantidade"/></span>
+                <div>
+                    <label>
+                        <input type="radio" name="vietnamita" value="carne" checked="checked" />Carne</label>
+                    <label>
+                        <input type="radio" name="vietnamita" value="vexetariano" />Vexetariano</label>
+                </div>
+            </div>
+            <div>
+                <label>Enderezo envío
+                    <input type="text" name="direccion" size="20" value="" id="direccion" />
+                </label>
+                <label>Teléfono de contacto
+                    <input type="text" name="telefono" size="10" value="" id="telefono" />
+                </label>
+            </div>
+            <input name="enviar" type="submit" id="enviar" value="Enviar Datos">
+            <input name="amosar" type="button" id="amosar" value="Amosar Datos">
+        </fieldset>
+    </form>
+    Panel de información:
+    <div id="erros"></div>
+    <br/> Pancarta desprazamento:
+    <div id="pancarta"></div>
+</body>
+
+</html>

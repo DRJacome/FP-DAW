@@ -1,0 +1,146 @@
+body {  
+	text-align: center;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	padding: 20px 100px;
+	color: #1E90FF;
+}
+
+header, footer {
+	height: 100px;
+}
+
+section {
+	height: 70%;
+}
+
+h1 {
+	padding: 10px;
+	background-color: #1E90FF;
+	font: bold 40px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	padding: 10px;
+	background-color: #1E90FF;
+	font: 20px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+div, nav {
+	font-size: 16px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+code {
+    font-family: monospace;
+    font-size: small;
+    padding: 10px 50px;
+}
+
+span.negra {	
+	font-weight: bold;
+}
+
+div ul {
+	text-align: justify;
+	font-size: 16px;
+	padding: 10px 150px;
+}
+
+ul li {
+   list-style-type: disc;
+}
+
+#submenu {
+	width: 10%;
+	float: left;
+	cursor: pointer;
+}
+
+div.menu, div.submenu {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0px 5px 0px 5px;
+	padding: 10px 15px;	
+}
+
+#enunciado, #datos, #resultado {
+	margin: 0px 5px 0px 5px;
+	padding: 10px 15px;	
+}
+
+div.activo {	
+	color: red;
+}
+
+#exercicio {
+	width: 100%;	
+	float: left;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.fila {
+	margin: 20px 0px 20px 100px;
+	display: flex;
+}
+
+.ficha {
+	display: flex;
+}
+
+.columna {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+}
+
+.separador {
+	margin: 20px;
+}
+
+.invisible {
+	color: white;
+}
+
+#taboa_4_2 td{
+	padding: 10px;
+	text-align: center;
+}
+
+/* Xadrez */
+
+table {
+	margin: auto;
+	border: 1px solid black;
+}
+
+td {
+	width: 70px;	
+	height: 70px;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 10px;
+}
+
+.fondoNegro {
+	background-color: #96989A;
+}
+
+.fondoBranco {
+	background-color: white;
+}

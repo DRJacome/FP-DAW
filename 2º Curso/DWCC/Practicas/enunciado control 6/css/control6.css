@@ -1,0 +1,32 @@
+body { background-color: #fafafa; padding: 1.25vw 10.00vw; font-family: Arial, Verdana, Helvetica, sans-serif; }
+h1 { padding: 0.625vw; background-color: #1E90FF; font: bold 2.5vw verdana, sans-serif; color: white; text-align: center; }
+h2 { padding: 0.625vw; background-color: #1E90FF; font: 1.25vw verdana, sans-serif; color: white; text-align: center; }
+
+nav#menu { text-align: center;}
+div#xogos { text-align: center; }
+fieldset { width: 76vw; border: 0.0625vw solid #1E90FF; margin: 1vw; background: #fff; padding: 0.5vh 0.5vw; }
+legend { color: #1E90FF; font-size: 1.2vw; }
+
+.boton3D { margin: 1vh 1vw; padding: 1vh 1vw; border: 1px solid #995309; border-radius: 4px; background-color: #1E90FF; color: #fff; font-size: 1.5vw; text-shadow: 0 -1px 0 rgba(0,0,0,.5); box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 0 1px 3px rgba(0,0,0,.2); }
+.boton3D:hover, .boton3D:focus { background-color: #e0811b; }
+.boton3D:active { background-color: #cf6a00; box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset; }
+
+img.icona { width: 4vw; height: 7vh; margin: 1vh 1vw; padding: 1vh 1vw; }
+img.xogo { width: 8vw; height: 11vh; margin: 2.5vh 1vw; }
+
+table { margin: auto; } 
+th { color: white; background-color: #1E90FF; width: 10vw; text-align: center; padding: 1vw; }
+td { width: 10vw; text-align: center; padding: 1vw; } 
+
+div { display: inline-block; font-size: 16px; margin: 0px 5px 0px 5px; }
+fieldset div { margin: 0.3em 0; clear: both; width: 16vw; }
+label { float: left; width: 16vw; text-align: center; margin: 3vh 0 0 0; color: #1E90FF; }
+input { padding: 0.15em; width: 10vw; border: 1px solid #1E90FF; background: #fafafa; font: bold 0.95em arial, sans-serif; -moz-border-radius: 0.4em; -khtml-border-radius: 0.4em; }
+input:hover, input:focus { border-color: #D2E4F9; background: #D2E4F9; }
+div#mensaxe { width: 100%; }
+
+.panel { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); }
+.xanela { display: flex; flex-direction: column; align-items: center; position: absolute; left: 37.5vw; top: 25vh; width: 25vw; margin: auto; background: #fff; border-radius: 1vw; -webkit-border-radius: 1vw; -moz-border-radius: 1vw; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.xanela h2 { width: 23.8vw; border-radius: 1vw 1vw 0vw 0vw; -webkit-border-radius: 1vw 1vw 0vw 0vw; -moz-border-radius: 1vw 1vw 0vw 0vw; } 
+div .boton3D { margin: 3vh 0.5vw 3vh 0.5vw; }
+.erro { color: red; margin: 3vh 0;}

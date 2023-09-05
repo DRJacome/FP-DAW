@@ -1,0 +1,124 @@
+body {  
+	background-color: #fafafa;
+	padding: 1.25vw 24.3vw;
+}
+
+h1 {
+	padding: 0.625vw;
+	background-color: #1E90FF;
+	font: bold 2.5vw verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	padding: 0.625vw;
+	background-color: #1E90FF;
+	font: 1.25vw verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+div#pantalla {
+	height: 27vw; 
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div#puntos {
+	height: 5.125vw;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div#municion, div#vida, div#escudo {
+	display: inline-flex;
+	position: absolute;
+	top: 33vw;
+}
+
+div#municion {
+ 	left: 24.5vw;
+}
+
+div#vida {
+ 	left: 32vw;
+}
+
+div#escudo {
+ 	left: 53vw;
+}
+
+div#cara {
+	position: absolute;
+	top: 32.65vw;
+ 	left: 47.3vw;	
+}
+
+div#amarela, div#azul, div#vermella {
+	position: absolute;
+	left: 62.6vw;
+}
+
+div#amarela {
+	top: 33vw;
+}
+
+div#azul {
+	top: 34.675vw;
+}
+
+div#vermella {
+	top: 36.25vw;
+}
+
+div#balas, div#cartuchos, div#misiles, div#celulas {
+	display: inline-flex;
+	position: absolute;
+	left: 68.75vw;
+}
+
+div#balas {
+	top: 33.3vw;
+}
+
+div#cartuchos {
+	top: 34.3vw;
+}
+
+div#misiles {
+	top: 35.3vw;
+}
+
+div#celulas {
+	top: 36.3vw;
+}
+
+#municion img, #vida img, #escudo img {
+	height: 2.7vw;
+	width: 2.4vw;
+}
+
+#cara img {
+	height: 4.9vw;
+	width: 5.65vw;
+}
+
+#chaves div img {
+	height: 1vw;
+	width: 1.25vw;
+}
+
+div#balas img, div#cartuchos img, div#misiles img, div#celulas img {
+	width: 0.635vw;
+}
+
+@supports(object-fit: cover) {
+    #municion img, #vida img, #escudo img, #cara img, div#balas img, div#cartuchos img, div#misiles img, div#celulas img, #chaves div img {
+		height: 100%;
+		object-fit: cover;
+		object-position: center center;
+    }
+}

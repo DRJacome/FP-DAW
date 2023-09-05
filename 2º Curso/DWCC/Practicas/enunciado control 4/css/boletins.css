@@ -1,0 +1,64 @@
+body {  
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #fafafa;
+	padding: 20px 100px;
+	color: #1E90FF;
+}
+
+header, footer {
+	height: 75px;
+}
+
+section {
+	height: 75%;
+}
+
+h1 {
+	padding: 10px;
+	background-color: #1E90FF;
+	font: bold 40px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	padding: 10px;
+	background-color: #1E90FF;
+	font: 20px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+div {
+	font-size: 16px;
+	margin: 0px 5px 0px 5px;
+	position: relative;
+}
+
+#enunciado, #datos, #resultado {
+	margin: 0px 5px 0px 5px;
+	padding: 10px 15px;	
+}
+
+button {
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: #1E90FF;
+	color: white;
+	text-align: center;
+}
+
+.butaca {
+	width: 3em;
+	cursor: pointer;
+}	
+
+.ocupada {
+	width: 3em;
+}	
+
+div#patio {
+	text-align: center;
+}

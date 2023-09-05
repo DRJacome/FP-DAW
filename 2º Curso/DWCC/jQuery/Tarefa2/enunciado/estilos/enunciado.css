@@ -1,0 +1,25 @@
+.centrado{
+    text-align: center;
+}
+
+.borde {
+    border: 2px solid black;
+    color: darkblue;
+}
+
+.fondoVerde{
+    color: green;
+}
+
+.taboaCentrada{
+    margin: auto;
+}
+
+.fondoAmarelo {
+    background-color: yellow;
+}
+
+.fondoAzul {
+    background-color: blue;
+}
+

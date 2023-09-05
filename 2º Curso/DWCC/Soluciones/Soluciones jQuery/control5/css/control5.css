@@ -1,0 +1,15 @@
+body { text-align: left; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1vw; background-color: white; color: black; }
+header h1 { padding: 1.35vh 0.625vw; background-color: #1E90FF; font: bold 2.5vw verdana, sans-serif; color: white; text-align: center; }
+footer h2 { padding: 1.35vh 0.625vw; background-color: #1E90FF; font: 1.25vw verdana, sans-serif; color: white; text-align: center; }
+div.contedor { padding: 3vh 1vw; }
+div.fila { display: flex; align-items: center; justify-content: center; }
+div.columna { display: flex; align-items: center; justify-content: center; border: rgb(229 231 235) solid 2px; width: 3.125vw; height: 6.60vh; margin: 0.2114vh 0.1vw; }
+div.tecla { display: flex; align-items: center; justify-content: center; width: 2.5vw; height: 6.08vh; margin: 0.2114vh 0.1vw; border-radius: 0.5rem; font-size: 14px; font-weight: bold; }
+#comprobar { display: flex; align-items: center; justify-content: center; width: 7.7vw; height: 6.08vh; margin: 0.2114vh 0.1vw; background-color: #D3D6DA; border-radius: 0.5rem; font-size: 14px; font-weight: bold; }
+div.proba { font-size: 24px; font-weight: bold; }
+.verde { background-color: green; border: green solid 2px; }
+.amarelo { background-color: yellow; border: yellow solid 2px; }
+.gris { background-color: grey; border: grey solid 2px; }
+.inactiva { background-color: grey; }
+.activa { background-color: #D3D6DA; }
+

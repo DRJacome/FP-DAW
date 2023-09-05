@@ -1,0 +1,17 @@
+body { background-color: #fafafa; padding: 1.25vw 10.00vw; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1vw; color: #6c7b84; }
+header h1 { padding: 0.625vw; background-color: #1E90FF; font: bold 2.5vw verdana, sans-serif; color: white; text-align: center; }
+footer h2 { padding: 0.625vw; background-color: #1E90FF; font: 1.25vw verdana, sans-serif; color: white; text-align: center; }
+section#esquerda { width: 70%; }
+section div, nav { text-align: center; }
+#contido { display: flex; align-items: flex-start; justify-content: space-between; }
+#artigos { display: flex; align-items: top; justify-content: center; }
+#compra { display: flex; flex-direction: column; justify-content: center; }
+#compra div { display: flex; align-items: center; margin: 1vh 1vw;}
+#compra div div { font-size: 2vw; padding-left: 2vw; }
+#total { color: red; font-size: xxx-large; font-weight: bold; margin: 3vh 0vw; }
+img.icona { width: 4vw; margin: 1vh 1vw; padding: 1vh 1vw; }
+img.prenda { width: 3vw; }
+img.activa { cursor: pointer; }
+p.nome { font-size: 1.5vw; line-height : 1.6; }
+p.prezo { font-size: 3vw; line-height : 1.6; }
+p.stock { font-size: 2vw; line-height : 1.6; }

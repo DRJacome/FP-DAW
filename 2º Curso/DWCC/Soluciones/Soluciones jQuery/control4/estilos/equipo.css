@@ -1,0 +1,50 @@
+body { font-family: Arial, Verdana, Helvetica, sans-serif; color: #6c7b84; font-size: 12px; background-image: url(../imaxes/fondo.jpg); }
+#contedor { width: 1000px; margin-left: auto; margin-right: auto; }
+#cabeceira { padding-top: 38px; padding-bottom: 19px; }
+.corpo { background-color: #fff; padding-top: 30px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px; }
+#titulo { height: 90px; position: relative; }
+h1 { font-size: 200%; padding-left: 15px; padding-right: 15px; }
+#descricion { width: 500px; padding-left: 15px; padding-right: 15px; font-size: 125%; font-weight: 100; }
+#escudo { width: 100px; height: 138px; background-repeat: no-repeat; background-image: url(../imaxes/favicon.png); position: absolute; bottom: 15px; right: 50px; }
+
+/* Clases para controlar o menú */
+#menu { height: 20px; background-image: url(../imaxes/fondomenu.jpg); background-repeat: repeat-x; padding: 10px; margin: 10px 0px; }
+#menu li { text-decoration: none; color: #3a86b8; padding: 5px 10px; }
+ul.menu li { display: inline-block; }
+ul.menu > li + li { border-left-style: solid; border-left-width: 1px; border-left-color: #3a86b8; }
+#menu li:hover { background-color: #d2e9f0; }
+#menu li.activa { background-color: #e9f1f4; }
+/* FIN Clases para controlar o menú */
+
+#bloque { margin-top: 15px; }
+h2 { font-size: 175%; margin-bottom: 10px; }
+
+/* Clases para controlar o bloque Inicio */
+#saudo { text-align: center; width: auto; font-size: xx-large; margin: 20px 0px; }
+/* FIN Clases para controlar o bloque Inicio */
+
+/* Clases para controlar o bloque Novas */
+#contido { width: 100%; display: inline-block; }
+.contidoEntrada { font-size: 14px; }
+.lateral { width: 15%; display: inline-block; margin-left: 40px; }
+.entrada { width: 75%; display: inline-block; border-top-style: solid; border-top-width: 1px; border-top-color: #5a5f62; padding-left: 15px; }
+.grosa { font-weight: bold; }
+.imaxeLateral { width: 80%; }
+.centrada { text-align: center; }	
+/* FIN Clases para controlar o bloque Novas */
+
+#bloqueNova * { vertical-align: top; }
+h3 { margin-top: 10px; margin-bottom: 5px; color: #0092c5; font-size: 18px; }
+.metadatos { color: #7dd0f0; margin-bottom: 19px; }
+.entrada a { color: #7dd0f0; }
+.entrada { margin-bottom: 15px; }
+.bloqueGaleria .entrada { width: 33%; float: left; }
+.bloqueGaleria .fotoGaleria { width: 65%; float: right; text-align: right; }
+.cssClear { clear: both; }
+#bloqueGaleria .entrada { border-top-style: none; border-top-width: 0px; }
+.bloqueGaleria { border-top-style: solid; border-top-width: 1px; border-top-color: #5a5f62; padding-top: 30px; }
+#bloqueGaleria h3 { margin-top: 0px; }
+#pe { text-align: center; color: grey; padding-top: 3px; height: 16px; }
+#pe ul { display: inline; }
+#pe ul li { display: inline-block; }
+#pe li + li { border-left-style: solid; border-left-width: 1px; border-left-color: grey; padding-left: 5px; padding-right: 5px; }

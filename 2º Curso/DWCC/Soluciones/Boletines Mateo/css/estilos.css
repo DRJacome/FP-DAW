@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fafafa;
+    padding: 20px 100px;
+    color: #1E90FF;
+}
+
+header,
+footer {
+    height: 75px;
+}
+
+section {
+    height: 80%;
+}
+
+h1 {
+    padding: 10px;
+    background-color: #1E90FF;
+    font: bold 40px verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+    background-color: #1E90FF;
+    font: 20px verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+div {
+    font-size: 16px;
+    margin: 0px 5px 0px 5px;
+}
+
+nav {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#submenu {
+    width: 10%;
+    float: left;
+    cursor: pointer;
+}
+
+div.menu,
+div.submenu {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+    padding: 10px 15px;
+}
+
+div#formulario {
+    background: #fff;
+    border: 1px solid #eee;
+    width: 30em;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+fieldset div {
+    margin: 0.3em 0;
+    clear: both;
+}
+
+legend {
+    color: #0b77b7;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+    margin-right: 1em;
+}
+
+input {
+    padding: 0.15em;
+    width: 10em;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    font: bold 0.95em arial, sans-serif;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    -khtml-border-radius: 0.4em;
+}
+
+input:hover,
+input:focus {
+    border-color: #666;
+    background: #D2E4F9;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+}
+
+.emoticona {
+    width: 64px;
+    height: 64px;
+}
+
+#enunciado,
+#datos,
+#resultado {
+    margin: 0px 5px 0px 5px;
+    padding: 10px 15px;
+}
+
+div.activo {
+    color: red;
+}
+
+#exercicio {
+    width: 100%;
+    float: left;
+}
+
+.correcto {
+    background: #6F6;
+}
+
+.erro {
+    background: #F30;
+}
+
+.login {
+    background: url(../imaxes/user.gif) no-repeat 95% 1em;
+}
+
+.contacto {
+    background: url(../imaxes/email.gif) no-repeat 95% 1em;
+}
+
+.sexo label,
+.sexo input {
+    vertical-align: middle;
+    display: inline;
+    float: none;
+    width: auto;
+}
+
+.sexo div {
+    float: left;
+    white-space: nowrap;
+    clear: none;
+}
+
+.data label {
+    float: none;
+    display: block;
+    text-align: center;
+    width: auto;
+}
+
+.data div {
+    float: left;
+    clear: none;
+    margin-right: 0.2em;
+}
+
+table,
+th,
+td {
+    border: 1px solid #1E90FF;
+    padding: 0.3em;
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}

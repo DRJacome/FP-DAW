@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<link type='image/x-icon' href='./imaxes/favicon.png' rel='shortcut icon'></link>
+	<title>.:= Control 2: Efectos visuais =:.</title>
+	<link href='./css/reset.css' type='text/css' rel='stylesheet'>
+	<link href='./css/control2.css' type='text/css' rel='stylesheet'>
+	<script src='./scripts/jquery.js' language='javascript'></script>
+	<script src='./scripts/control2.js' language='javascript'></script>
+</head>
+<body>
+	<header>
+		<h1>CONTROL 2: Efectos visuais</h1>
+	</header>
+	<section>
+		<div>
+			<h2>Rexistro de Usuarios</h2>
+			<div id='formulario'>
+				<fieldset class='login'>
+					<legend>Detalles de Acceso</legend>
+					<div>
+						<label for='usuario'>Usuario</label>
+						<input type='text' id='usuario' name='usuario'/>
+					</div>
+					<div>
+						<label for='password'>Contrasinal</label>
+						<input type='password' id='contrasinal' name='contrasinal'/>
+					</div>
+					<div>
+						<label for='repetir'>Repetir Contrasinal</label>
+						<input type='password' id='repetir' name='repetir'/>
+					</div>
+					<div>
+						<button id='detalles'>Amosar detalles de usuario</button>
+					</div>	
+				</fieldset>
+				<fieldset class='contacto'>
+					<legend>Detalles do Usuario </legend>
+					<div>
+						<label for='nome'>Nome</label>
+						<input type='text' id='nome' name='nome'/>
+					</div>
+					<div>
+						<label for='apelidos'>Apelidos</label>
+						<input type='text' id='apelidos' name='apelidos'/>
+					</div>
+					<div>
+						<label for='email'>Email</label>
+						<input type='text' id='email' name='email' class='email'>
+					</div>
+					<div>
+						<fieldset class='sexo'>
+							<legend>Sexo</legend>
+							<div>
+								<input type='radio' id='home' name='sexo' value='home'/>
+								<label for='home'>Home</label>
+							</div>
+							<div>
+								<input type='radio' id='muller' name='sexo' value='muller'/>
+								<label for='muller'>Muller</label>
+							</div>
+						</fieldset>
+					</div>
+					<div>
+						<fieldset class='localidade'>
+							<legend>Localidade</legend>
+							<div class='autonomia'>
+								<label for='autonomia'>Autonomía</label>
+								<select id='autonomia' name='autonomia'>
+									<option value='0'>Escolle unha opción</option>
+									<option value='1'>Andalucía</option>
+									<option value='2'>Galiza</option>
+								</select>
+							</div>
+							<div class='autonomia'>
+								<label for='andalucia'>Andalucía</label>
+								<select id='andalucia' name='andalucia'>
+									<option value='0'>Escolle unha opción</option>
+									<option value='1'>Almería</option>
+									<option value='2'>Cádiz</option>
+									<option value='3'>Córdoba</option>
+									<option value='4'>Granada</option>
+									<option value='5'>Huelva</option>
+									<option value='6'>Jaén</option>
+									<option value='7'>Málaga</option>
+									<option value='8'>Sevilla</option>
+								</select>
+							</div>
+							<div class='autonomia'>
+								<label for='galiza'>Galiza</label>
+								<select id='galiza' name='galiza'>
+									<option value='0'>Escolle unha opción</option>
+									<option value='1'>A Coruña</option>
+									<option value='2'>Lugo</option>
+									<option value='3'>Ourense</option>
+									<option value='4'>Pontevedra</option>
+								</select>
+							</div>
+						</fieldset>
+					</div>
+				</fieldset>
+				<div id='mensaxes'></div>
+				<div>
+					<button id='enviar'>Enviar</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h2>2020 Desenvolvido por Jotaeme Sierra</h2>
+		<h2>Ciclo Superior Desenvolvemento de Aplicacións Web</h2>
+	</footer>
+</body>
+</html>

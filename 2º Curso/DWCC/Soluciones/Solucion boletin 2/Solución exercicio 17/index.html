@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<link type='image/x-icon' href='./imaxes/favicon.png' rel='shortcut icon'></link>
+	<title>.:= Control 2: Efectos visuais =:.</title>
+	<link href='./css/reset.css' type='text/css' rel='stylesheet'>
+	<link href='./css/control2.css' type='text/css' rel='stylesheet'>
+	<script src='./scripts/practica2.js' language='javascript'></script>
+</head>
+<body>
+	<header>
+		<h1>Tarefa 2: Condicionais</h1>
+	</header>
+	<section>
+		<div>
+			<h2>Rexistro de Usuarios</h2>
+			<div id='formulario'>
+				<fieldset class='login'>
+					<legend>Detalles de Acceso</legend>
+					<div>
+						<label for='usuario'>Usuario</label>
+						<input type='text' id='usuario' name='usuario'/>
+					</div>
+					<div>
+						<label for='password'>Contrasinal</label>
+						<input type='password' id='contrasinal' name='contrasinal'/>
+					</div>
+					<div>
+						<label for='repetir'>Repetir Contrasinal</label>
+						<input type='password' id='repetir' name='repetir'/>
+					</div>
+				</fieldset>
+				<fieldset class='contacto'>
+					<legend>Detalles do Usuario </legend>
+					<div>
+						<label for='nome'>Nome</label>
+						<input type='text' id='nome' name='nome'/>
+					</div>
+					<div>
+						<label for='apelidos'>Apelidos</label>
+						<input type='text' id='apelidos' name='apelidos'/>
+					</div>
+					<div>
+						<label for='email'>Email</label>
+						<input type='text' id='email' name='email' class='email'>
+					</div>
+					<div>
+						<fieldset class='sexo'>
+							<legend>Sexo</legend>
+							<div>
+								<input type='radio' id='home' name='sexo' value='home'/>
+								<label for='home'>Home</label>
+							</div>
+							<div>
+								<input type='radio' id='muller' name='sexo' value='muller'/>
+								<label for='muller'>Muller</label>
+							</div>
+						</fieldset>
+					</div>
+					<div>
+						<fieldset class='data'>
+							<legend>Data de nacemento</legend>
+							<div>
+								<label for='dia'>Día</label>
+								<select id='dia' name='dia'>
+									<option value='1'>1</option>
+									<option value='2'>2</option>
+									<option value='3'>3</option>
+									<option value='4'>4</option>
+									<option value='5'>5</option>
+									<option value='6'>6</option>
+									<option value='7'>7</option>
+									<option value='8'>8</option>
+									<option value='9'>9</option>
+									<option value='10'>10</option>
+									<option value='11'>11</option>
+									<option value='12'>12</option>
+									<option value='13'>13</option>
+									<option value='14'>14</option>
+									<option value='15'>15</option>
+									<option value='16'>16</option>
+									<option value='17'>17</option>
+									<option value='18'>18</option>
+									<option value='19'>19</option>
+									<option value='20'>20</option>
+									<option value='21'>21</option>
+									<option value='22'>22</option>
+									<option value='23'>23</option>
+									<option value='24'>24</option>
+									<option value='25'>25</option>
+									<option value='26'>26</option>
+									<option value='27'>27</option>
+									<option value='28'>28</option>
+									<option value='29'>29</option>
+									<option value='30'>30</option>
+									<option value='31'>31</option>
+								</select>
+							</div>
+							<div>
+								<label for='mes'>Mes</label>
+								<select id='mes' name='mes'>
+									<option value='1'>Xaneiro</option>
+									<option value='2'>Febreiro</option>
+									<option value='3'>Marzo</option>
+									<option value='4'>Abril</option>
+									<option value='5'>Maio</option>
+									<option value='6'>Xuño</option>
+									<option value='7'>Xullo</option>
+									<option value='8'>Agosto</option>
+									<option value='9'>Setembro</option>
+									<option value='10'>Outubro</option>
+									<option value='11'>Novembro</option>
+									<option value='12'>Decembro</option>
+								</select>
+							</div>
+							<div>
+								<label for='ano'>Ano</label>
+								<select id='ano' name='ano'>
+									<option value='2009'>2009</option>
+									<option value='2010'>2010</option>
+									<option value='2011'>2011</option>
+									<option value='2012'>2012</option>
+									<option value='2013'>2013</option>
+									<option value='2014'>2014</option>
+								</select>
+							</div>
+						</fieldset>
+					</div>
+				</fieldset>
+				<div id='mensaxes'></div>
+				<div>
+					<button id='enviar' onclick='comprobarDatos(usuario,contrasinal,repetir,nome,apelidos,email,home,muller,dia,mes,ano);'>Enviar</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h2>2019 Desenvolvido por Jotaeme Sierra</h2>
+		<h2>Ciclo Superior Desenvolvemento de Aplicacións Web</h2>
+	</footer>
+</body>
+</html>

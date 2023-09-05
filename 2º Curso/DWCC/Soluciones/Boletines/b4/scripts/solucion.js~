@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Restaurante Chinés He-Lao</title>
+	<link rel='stylesheet' type='text/css' href='./estilos/estilos.css'>
+	<script type="text/javascript" src="./scripts/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			//1. Ocultar o div que contén as opcións de tipo radio cando se cargue o documento
+			$(":radio").parent().parent().hide();
+			// outras posibilidades:
+			//		$("div>div:has(:radio)").hide();
+			//		$("fieldset > div > div").hide();
+			
+			//2. Ao clicar no checkbox deberá amosar ou ocultar o div anterior dependendo da situación na que se atope
+			$(":checkbox").click(function()
+			//	outra posibilidade:
+			//		$("#rolo").click(function()
+			{
+				if (this.checked)
+				//	outra posibilidade:
+				//		if ($("#rolo").attr("checked"))
+				{
+					$(":radio").parent().parent().show();
+					// 3. Se o amosa tamén deberá situar o cursor na cela cantidade
+					$("#cantidade").focus();
+				}
+				else
+				{
+					$(":radio").parent().parent().hide();
+				}			
+			});
+
+			//4. Se prememos no botón Enviar Datos e o enderezo ou o telefono están baleiros amosará unha mensaxe de erro no contedor erros, empregando os efectos fadeIn e fadeOut, de 1 e 3 segundos consecutivamente, e situará o cursor no campo que conteña o erro
+			$("#enviar").click(function()
+			{
+				var texto = "";
+				if ($("#telefono").val()=="")
+				// outra posibilidade:
+				//		if ($("#telefono").val().length < 1)
+				{
+					texto += "<p>Debes introducir o número de teléfono</p>";
+					$("#telefono").focus();				
+				}
+				if ($("#direccion").val()=="")
+				// outra posibilidade:
+				//		if ($("#direccion").val().length < 1)
+				{
+					texto += "<p>Debes introducir un enderezo</p>"
+					$("#direccion").focus();				
+				}
+				$("#erros").html(texto).fadeIn(1000).fadeOut(3000);
+			});
+			
+			//5. Ao premer no botón Amosar Datos, amosará no contedor pancarta todos os valores dos campos do formulario. Empregar o efecto slideToggle a velocidade normal tendo en conta que o botón deberá tamén cambiar o seu texto de Amosar Datos a Ocultar Datos e viceversa.
+			$("#amosar").click(function()
+			{
+				var rolos = "";
+				var enderezo = "<br/>Dirección: "+$("#direccion").val()+"<br/>Teléfono: "+$("#telefono").val();
+				
+				if ($("#rolo").attr("checked") == "checked")
+				{
+					tipoDeRolo = $(":radio:checked").val();
+					cantidade = $("#cantidade").val();
+					rolos = "Rolos vietnamitas: "+ cantidade + " de " + tipoDeRolo;
+				}
+				$("#pancarta").html(rolos+enderezo).slideToggle(400);
+				if (($("#amosar").val())=="Amosar Datos")	
+						$("#amosar").val("Ocultar Datos");
+				else	
+						$("#amosar").val("Amosar Datos");		
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Restaurante Chinés He-Lao</h1>
+	<h2>Menú Online</h2>
+	<fieldset>
+		<legend>Entrantes</legend>
+		<div>
+			<label><input type="checkbox" name="rolo" value="vietnamita" id="rolo"/>Roliños de primavera</label>
+			<span><input type="text" name="cantidade" size="2" value="0" id="cantidade"/></span>
+			<div>
+				<label><input type="radio" name="vietnamita" value="carne" checked="checked"/>Carne</label>
+				<label><input type="radio" name="vietnamita" value="vexetariano"/>Vexetariano</label>
+			</div>
+		</div>
+		<div>
+			<label>Enderezo envío<input type="text" name="direccion" size="20" value="" id="direccion"/></label>
+			<label>Teléfono de contacto<input type="text" name="telefono" size="10" value="" id="telefono"/></label>
+		</div>
+		<input name="enviar" type="button" id="enviar" value="Enviar Datos">
+		<input name="amosar" type="button" id="amosar" value="Amosar Datos">
+	</fieldset>
+	Panel de información: <div id="erros"></div>
+	<br/>
+	Pancarta desprazamento: <div id="pancarta"></div>
+</body>
+</html>
